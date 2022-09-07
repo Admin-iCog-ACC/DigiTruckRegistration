@@ -33,9 +33,9 @@ function StudentInformation() {
         </div>
         <p className="text-xs text-red-500">{userData['fullName']?.error}</p>
       </div>
-      <div className="mx-2 w-full sm:w-1/2 md:w-2/3 flex-1">
+      <div className="mx-2 w-full sm:w-1/2 md:w-2/3 flex-1 ">
         <p>Gender: </p>
-        <div className="flex gap-10">
+        <div className="flex gap-10 mt-1">
           <div className="flex space-x-1 items-center">
             <label className="">Male</label>
             <input
@@ -59,7 +59,7 @@ function StudentInformation() {
       </div>
 
       <div className="mx-2 mt-3 w-full flex">
-        <div className="mx-2 w-full sm:w-1/2 md:w-2/3  flex-1">
+        <div className="mr-2 w-full sm:w-1/2 md:w-2/3  flex-1">
           <label className="label-style">Date of Birth:</label>
           <Required />
 
@@ -76,7 +76,7 @@ function StudentInformation() {
           <p className="text-xs text-red-500">{userData['dob']?.error}</p>
         </div>
 
-        <div className="mx-2 w-full sm:w-1/2 md:w-2/3  flex-1">
+        <div className="mx-2 mt-1 w-full sm:w-1/2 md:w-2/3  flex-1">
           <label className="label-style">Phone Number :</label>
           <div className="input-div-style">
             <input
