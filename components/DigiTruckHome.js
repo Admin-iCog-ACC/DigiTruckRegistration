@@ -34,7 +34,7 @@ function DigiTruckHome() {
        </div>
       </div>
       <div className='relative h-auto w-auto hidden lg:block'>
-        <Image layout='fill' objectFit='contain' alt='' src="/digiTruckHome2.png"/> 
+        <Image layout='fill' objectFit='contain' alt='' src="/digitruck-09.png"/> 
       </div>
       </div>
     </div>

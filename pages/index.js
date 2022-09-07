@@ -9,20 +9,20 @@ import PartnersSection from "../components/PartnersSection";
 import ThreePoints from "../components/ThreePoints";
 
 function Home() {
-
-
   return (
     <div className="bg-[#f6f9ff] font-raleway banner-bg-img">
       <RecoilRoot>
         <Nav />
       </RecoilRoot>
       <DigiTruckHome />
-      <BackgroundSection />
+      <div className=' w-100% h-[90vh] clear-both bg-[url("/digitruck_interior_3.jpg")] bg-no-repeat bg-fixed bg-cover bg-[#178c9f]'></div>
       <div className="bg-[#f7f9ff] p-10"></div>
 
-      
-      <ThreePoints/>
-    
+      <BackgroundSection />
+      <div className="bg-[#f7f9ff] p-10"></div>
+      <div className=' w-100% h-[90vh] clear-both bg-[url("/digitruck_interior_1.jpg")] bg-no-repeat bg-fixed bg-cover bg-[#178c9f]'></div>
+
+      <ThreePoints />
 
       <PartnersSection />
       <Footer />

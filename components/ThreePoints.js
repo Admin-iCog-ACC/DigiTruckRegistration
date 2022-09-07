@@ -12,29 +12,30 @@ function ThreePoints() {
   return (
     <div
       data-aos="fade-up"
-      className="p-5 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-5 px-14"
+      className="p-5 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-5 px-14 py-20"
     >
-      <div className="flex flex-col justify-center items-center">
-          <div className="relative w-52 h-40">
+      <div className="group flex flex-col justify-center items-center rounded-xl shadow-xl hover:shadow-2xl transition ease-in-out duration-300  py-20 ">
+          <div className="relative w-20 h-20">
             <Image
               layout="fill"
-              src="/programming-converted-removebg-preview.png"
+              src="/code.svg"
               alt=""
+              className="hover:stroke-white fill-white "
             />
           </div>
-          <div className="px-2 py-4">
+          <div className="px-2 py-4 ">
             <h2 className="font-bold text-xl mb-2 text-center">Programming</h2>
-            <p className="text-gray-700 text-center">
+            <p className="text-gray-700 text-center ">
               Students will be introduced to and practice using the programming
               languages.
             </p>
           </div>
       </div>
-      <div className="flex flex-col justify-center items-center">
-        <div className="relative w-52 h-40">
+      <div className="flex flex-col justify-center items-center rounded-xl shadow-xl hover:shadow-2xl transition ease-in-out duration-300 py-20">
+        <div className="relative w-20 h-20">
         <Image
               layout="fill"
-              src="/robot-converted-removebg-preview.png"
+              src="/cogs.svg"
               alt=""
             />
           </div>
@@ -50,11 +51,11 @@ function ThreePoints() {
         </div>
       </div>
 
-      <div className="flex flex-col justify-center items-center">
-        <div className="relative w-44 h-40">
+      <div className="flex flex-col justify-center items-center rounded-xl shadow-xl hover:shadow-2xl transition ease-in-out duration-300 py-20">
+        <div className="relative w-20 h-20">
         <Image
               layout="fill"
-              src="/game.png"
+              src="/game.svg"
               alt=""
             />
           </div>

@@ -55,7 +55,7 @@ function Application() {
         <UseContextProvider>
           <div className="bg-[#f6f9ff] ">
             <div className="bg-[#f6f9ff]  flex items-center">
-              <div className="lg:w-3/5 mx-auto md:w-4/5 rounded-2xl bg-white pb-2 shadow-xl font-raleway">
+              <div className="lg:w-4/5 mx-auto md:w-4/5 mt-10 rounded-2xl bg-white pb-2 shadow-xl font-raleway">
                 <div className="horizontal container">
                   <Stepper steps={steps} currentStep={currentStep} />
 

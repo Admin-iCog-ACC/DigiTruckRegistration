@@ -1,26 +1,26 @@
-import Image from 'next/image';
+import Image from "next/image";
 
 function PartnersSection() {
   return (
-    <div className="w-full bg-[#087b8d] p-10">
-      <div className="flex flex-col items-center text-white my-10 space-y-3">
+    <div className="w-full bg-[#087b8d] px-10 pb-20 pt-10">
+      <div className="flex flex-col items-center text-white my-10 space-y-3 pb-10">
         <h2 className="text-4xl font-bold">DigiTruck Ethiopia</h2>
         <h3>Partners</h3>
       </div>
-      <div className="grid grid-cols-2 lg:grid-cols-4 gap-10">
+      <div className="grid grid-cols-2 lg:grid-cols-4 gap-10 pb-5">
         <div className="flex items-center justify-center">
           <a
             href="https://icogacc.com/"
             title="iCog-ACC"
             // target="_blank"
-            className="relative w-48 h-48"
+            className="relative w-48 h-48 "
           >
             <Image
               className=""
               layout="fill"
               objectFit="contain"
               src="/hnet.com-image.png"
-              alt=''
+              alt=""
             />
           </a>
         </div>
@@ -29,46 +29,46 @@ function PartnersSection() {
             href="https://www.huawei.com/en/?ic_medium=direct&ic_source=surlent"
             title="Huawei"
             // target="_blank"
-            className="relative w-36 h-36"
+            className="relative w-36 h-36 "
           >
             <Image
               className=""
               layout="fill"
               objectFit="contain"
               src="/huaweiLogo-removebg-preview.png"
-              alt=''
+              alt=""
             />
           </a>
         </div>
         <div className="flex items-center justify-center">
           <a
             href="https://www.close-the-gap.org/"
-           // target="_blank"
+            // target="_blank"
             title="Close the Gap"
-            className="relative w-48 h-48"
+            className="relative w-48 h-48 "
           >
             <Image
               className=""
               layout="fill"
               objectFit="contain"
-              alt=''
+              alt=""
               src="/clodegap.png"
             />
           </a>
         </div>
-        <div className="flex items-center justify-center">
+        <div className="flex items-center justify-center ">
           <a
             href="https://moe.gov.et/"
             //target="_blank"
             title="MoE"
-            className="relative w-60 h-36"
+            className="relative w-36 h-36 "
           >
             <Image
               className=""
               layout="fill"
               objectFit="fill"
-              alt=''
-              src="/MoeRemoved.png"
+              alt=""
+              src="/logoMoE.png"
             />
           </a>
         </div>
