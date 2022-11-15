@@ -9,7 +9,9 @@ function DigiTruckHome() {
         <div>
           <div className="flex flex-wrap ">
             <div className=" space-y-1">
-              <img src="/digi.jpg" ></img>
+               <h1 className="text-[60px] font-extrabold text-[#175daa] text-[FREDOKAONE-REGULAR]">
+                DigiTruck <span className="text-[#EE4823]"> Ethiopia </span>
+              </h1>
               <h1 className="text-[24px] text-[#333333] leading-tight">
               Ethiopia’s first ever moving coding classroom.
               </h1>
