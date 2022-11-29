@@ -19,6 +19,7 @@ function StudentInformation({ labels, locale }) {
       },
     });
   };
+  console.log(userData);
   return (
     <div className="flex flex-col  ">
       <div className="w-full sm:w-1/2 md:w-2/3 flex-1">
@@ -72,6 +73,7 @@ function StudentInformation({ labels, locale }) {
               required
               title={labels.textInputRequired}
               type="date"
+              max={new Date().toISOString().split("T")[0]}
               onChange={handleChange}
               value={userData["dob"]?.value || ""}
               name="dob"
@@ -138,7 +140,7 @@ function StudentInformation({ labels, locale }) {
         <label className="label-style">{labels.address}</label>
         <Required />
         <div className="input-div-style">
-          <input
+          {/* <input
             required
             title={labels.textInputRequired}
             type="address"
@@ -146,7 +148,29 @@ function StudentInformation({ labels, locale }) {
             value={userData["address"]?.value || ""}
             name="address"
             className="input-style"
-          />
+          /> */}
+          <select
+              required
+              title={labels.gradeLevelRequired}
+              name="address"
+              value={userData["address"]?.value || ""}
+              onChange={handleChange}
+              className="select-style md:w-2/3"
+            >
+              <option value="">{labels.addressOptions[0]}</option>
+              <option value="Addis Ababa">
+                {labels.addressOptions[1]}
+              </option>
+              <option value="Harar">{labels.addressOptions[2]}</option>
+              <option value="Arbaminch">{labels.addressOptions[3]}</option>
+              <option value="Hawassa">{labels.addressOptions[4]}</option>
+              <option value="Adama">{labels.addressOptions[5]}</option>
+              <option value="Bahirdar">{labels.addressOptions[6]}</option>
+              <option value="Gonder">{labels.addressOptions[7]}</option>
+              <option value="Gambella">{labels.addressOptions[8]}</option>
+              <option value="Jimma">{labels.addressOptions[9]}</option>
+            
+            </select>
         </div>
       </div>
       <div className="md:flex flex-row gap-10">

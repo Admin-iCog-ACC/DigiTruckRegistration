@@ -26,6 +26,7 @@ export default function StepperControl({ handleClick, currentStep, steps, labels
   let unfinishedStep = true;
   const values = Object.values(userData);
   const count = values.filter((data) => data?.required).length;
+  console.log(count);
   switch (currentStep) {
     case 1:
       unfinishedStep = count < 7;
@@ -34,7 +35,7 @@ export default function StepperControl({ handleClick, currentStep, steps, labels
     //   unfinishedStep = count < 6;
     //   break;
     case 2:
-      unfinishedStep = count < 9;
+      unfinishedStep = count < 10;
       break;
     case 3:
       unfinishedStep = count < 14;
@@ -44,6 +45,7 @@ export default function StepperControl({ handleClick, currentStep, steps, labels
   }
 
   const hasError = values.some((e) => e?.required && e?.error != null);
+  console.log(hasError);
   return (
     <div className="container mt-4 mb-8 flex justify-around">
       <button
