@@ -37,7 +37,7 @@ function EmergencyContact({ labels, locale }) {
         <p className="text-xs text-red-500">{userData["contactFullName"]?.error}</p>
 
       </div>
-      <div className="flex gap-10">
+      <div className="md:flex flex-row gap-10">
         <div className="mx-2 w-full sm:w-1/2 md:w-2/3  flex-1">
           <label className="label-style">{labels.phone}</label>
           <Required />

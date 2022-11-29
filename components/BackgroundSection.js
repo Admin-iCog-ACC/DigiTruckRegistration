@@ -22,8 +22,8 @@ function BackgroundSection() {
         </div>
       </div>
     </div>
-    <div className="relative h-24 mt-14 md:mb-1 md:-mx-12 -mx-0 ">
-        <Image layout="fill" objectFit="contain" alt="" src="/home.png" />
+    <div className="relative h-24 mt-14 md:-mb-5 -mx-0 ">
+        <Image layout="fill" objectFit="cover" alt="" src="/home.png" />
       </div></>
   );
 

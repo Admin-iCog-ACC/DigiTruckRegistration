@@ -68,8 +68,8 @@ function ThreePoints() {
           </p>
         </div>
       </div>
-    </div><div className="relative h-24  md:mb-4 md:-mx-12 -mx-0  ">
-        <Image layout="fill" objectFit="contain" alt="" src="/home.png" />
+    </div><div className="relative h-24  md:mb-4 -mx-0  ">
+        <Image layout="fill" objectFit="cover" alt="" src="/home.png" />
       </div></>
   );
 }

@@ -61,13 +61,13 @@ function InformationAboutTheProgram({ labels, locale }) {
         <label className="label-style">
         {labels.experience}
         </label>
-        <Required />
+        {/* <Required /> */}
 
         <div className="input-div-style">
           <input
             type="text"
-            required
-            title={labels.textInputRequired}
+            // required
+            // title={labels.textInputRequired}
             onChange={handleChange}
             value={userData['wiyewtp']?.value || ''}
             name="wiyewtp"

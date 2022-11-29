@@ -15,6 +15,7 @@ import StepperControl from "../components/StepperControl";
 import Final from "../components/forms/Final";
 import FormLabels from "../assets/forms_i18n.json";
 import Image from "next/image";
+import Head from "next/head";
 
 function Application() {
   const { locale, locales, asPath, defaultLocale } = useRouter();
@@ -71,6 +72,9 @@ function Application() {
 
   return (
     <div className="bg-[#f6f9ff] font-raleway banner-bg-img">
+      <Head>
+        <title>Application - DigiTruck Ethiopia</title>
+      </Head>
       <RecoilRoot>
         <Nav />
       </RecoilRoot>
@@ -78,24 +82,30 @@ function Application() {
         <UseContextProvider>
           <div className="bg-[#f6f9ff] ">
             <div className="bg-[#f6f9ff]  flex items-center">
-              <div className="lg:w-4/5 mx-auto md:w-4/5 mt-10 rounded-2xl bg-white pb-2 shadow-xl font-raleway">
+              <div className="lg:w-4/5 mx-auto md:w-4/5 mt-10 w-[95vw] rounded-2xl bg-white pb-2 shadow-xl font-raleway">
                 <div className="horizontal container">
                   <div className="flex items-center justify-evenly my-5">
                     {locales.map((l, i) => {
                       return (
                         <Link key={i} href={asPath} locale={l}>
-                          <div className={`flex flex-row text-sm center items-center justify-center border px-7 py-2 hover:bg-[#EE4823] hover:text-white rounded-lg transition duration-200 ease-in-out ${locale === l ? "bg-[#EE4823] text-white cursor-default" : "bg-white text-black cursor-pointer" }`}>
+                          <div
+                            className={`flex flex-row text-sm center items-center justify-center border px-7 py-2 hover:bg-[#EE4823] hover:text-white rounded-lg transition duration-200 ease-in-out ${
+                              locale === l
+                                ? "bg-[#EE4823] text-white cursor-default"
+                                : "bg-white text-black cursor-pointer"
+                            }`}
+                          >
                             <Image
                               src={
                                 FormLabels.labels.filter(
                                   (lo) => lo.locale === l
                                 )[0].icon
                               }
-                              height="15px"
-                              width="15px"
+                              height="25px"
+                              width="25px"
                               alt={l}
                             />
-                            <p className="ml-2">
+                            <p className="ml-2 md:text-sm text-xs">
                               {
                                 FormLabels.labels.filter(
                                   (lo) => lo.locale === l
@@ -108,7 +118,9 @@ function Application() {
                     })}
                   </div>
 
-                  <Stepper steps={steps} currentStep={currentStep} />
+                  <div className="">
+                    <Stepper steps={steps} currentStep={currentStep} />
+                  </div>
 
                   <div className="my-10 p-10 ">{displayStep(currentStep)}</div>
                 </div>

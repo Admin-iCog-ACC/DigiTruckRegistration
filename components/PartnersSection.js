@@ -16,7 +16,7 @@ function PartnersSection() {
             <Image
               className=""
               layout="fill"
-              objectFit="contain"
+              objectFit="cover"
               src="/icog.fav.png"
               alt=""
             />

@@ -2,11 +2,10 @@
   "labels": [
     {
       "locale": "en-US",
-      "icon":"/English.svg",
+      "icon":"/united-kingdom.png",
       "label":"English",
       "steps": [
         "Student Info",
-
         "Emergency Contact",
         "Info about the Program",
         "Done"
@@ -76,11 +75,10 @@
 
     {
       "locale": "am-ET",
-      "icon":"/Amharic.svg",
+      "icon":"/ethiopia.png",
       "label":"አማርኛ",
       "steps": [
         "የተማሪ መረጃ",
-        "ኮሌጅ ተማሪዎች",
         "ድንገተኛ አደጋ ተጠሪ",
         "መረጃ ስለ ፕሮግራሙ",
         "ጨርስ/ሽ"

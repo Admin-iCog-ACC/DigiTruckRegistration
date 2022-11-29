@@ -21,7 +21,7 @@ function StudentInformation({ labels, locale }) {
   };
   return (
     <div className="flex flex-col  ">
-      <div className="mx-2 w-full sm:w-1/2 md:w-2/3 flex-1">
+      <div className="w-full sm:w-1/2 md:w-2/3 flex-1">
         <label className="label-style">{labels.fullName}</label>
         <Required />
         <div className="input-div-style">
@@ -37,7 +37,7 @@ function StudentInformation({ labels, locale }) {
         </div>
         <p className="text-xs text-red-500">{userData["fullName"]?.error}</p>
       </div>
-      <div className="mx-2 w-full sm:w-1/2 md:w-2/3 flex-1 ">
+      <div className="w-full sm:w-1/2 md:w-2/3 flex-1 mt-3">
         <p>{labels.gender.gender}</p>
         <div className="flex gap-10 mt-1">
           <div className="flex space-x-1 items-center">
@@ -62,8 +62,8 @@ function StudentInformation({ labels, locale }) {
         </div>
       </div>
 
-      <div className="mx-2 mt-3 w-full flex">
-        <div className="mr-2 w-full sm:w-1/2 md:w-2/3  flex-1">
+      <div className="mt-3 w-full md:flex flex-row ">
+        <div className="mr-4 w-full sm:w-1/2 md:w-2/3 flex-1">
           <label className="label-style">{labels.dateOfBirth}</label>
           <Required />
 
@@ -81,7 +81,7 @@ function StudentInformation({ labels, locale }) {
           <p className="text-xs text-red-500">{userData["dob"]?.error}</p>
         </div>
 
-        <div className="mx-2 mt-1 w-full sm:w-1/2 md:w-2/3  flex-1">
+        <div className="mt-1 w-full sm:w-1/2 md:w-2/3  flex-1">
           <label className="label-style">{labels.phoneNumber}</label>
           <Required />
           <div className="input-div-style">
@@ -96,8 +96,8 @@ function StudentInformation({ labels, locale }) {
           <p className="text-xs text-red-500">{userData["phoneNumber"]?.error}</p>
         </div>
       </div>
-      <div className="flex gap-10">
-        <div className="mx-2 w-full sm:w-1/2 md:w-2/3  flex-1">
+      <div className="md:flex flex-row gap-10">
+        <div className="w-full sm:w-1/2 md:w-2/3  flex-1">
           <label className="label-style">{labels.emailAddress.email}</label>
           <Required />
           <p className="text-xs text-slate-400">
@@ -116,7 +116,7 @@ function StudentInformation({ labels, locale }) {
           </div>
           <p className="text-xs text-red-500">{userData["email"]?.error}</p>
         </div>
-        <div className="mx-2 w-full sm:w-1/2 md:w-2/3  flex-1">
+        <div className="  w-full sm:w-1/2 md:w-2/3  flex-1">
           <label className="label-style">
             {labels.socialMedia.socialMedia}
           </label>
@@ -134,7 +134,7 @@ function StudentInformation({ labels, locale }) {
           </div>
         </div>
       </div>
-      <div className="mx-2 w-full sm:w-1/2 md:w-2/3  flex-1">
+      <div className="w-full sm:w-1/2 md:w-2/3  flex-1">
         <label className="label-style">{labels.address}</label>
         <Required />
         <div className="input-div-style">
@@ -149,8 +149,8 @@ function StudentInformation({ labels, locale }) {
           />
         </div>
       </div>
-      <div className="flex gap-10">
-        <div className="mx-2 w-full sm:w-1/2 md:w-2/3  flex-1">
+      <div className="md:flex flex-row gap-10">
+        <div className="w-full sm:w-1/2 md:w-2/3  flex-1">
           <label className="label-style">{labels.schoolName}</label>
           <Required />
 
@@ -166,7 +166,7 @@ function StudentInformation({ labels, locale }) {
             />
           </div>
         </div>
-        <div className="mx-2 w-full sm:w-1/2 md:w-2/3  flex-1">
+        <div className="w-full sm:w-1/2 md:w-2/3  flex-1">
           <label className="label-style">{labels.gradeLevel}</label>
           <Required />
           <div className="input-div-style">
