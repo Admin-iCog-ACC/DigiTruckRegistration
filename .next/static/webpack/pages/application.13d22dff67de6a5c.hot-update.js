@@ -1,0 +1,22 @@
+"use strict";
+/*
+ * ATTENTION: An "eval-source-map" devtool has been used.
+ * This devtool is neither made for production nor for readable output files.
+ * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
+ * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
+ * or disable the default devtool with "devtool: false".
+ * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
+ */
+self["webpackHotUpdate_N_E"]("pages/application",{
+
+/***/ "./assets/forms_i18n.json":
+/*!********************************!*\
+  !*** ./assets/forms_i18n.json ***!
+  \********************************/
+/***/ (function(module) {
+
+module.exports = JSON.parse('{"labels":[{"locale":"en-US","icon":"/English.svg","label":"English","steps":["Student Infom","Emergency Contact","Info about the Program","Done"],"back":"BACK","continue":"CONTINUE","submitForm":"SUBMIT FORM","emailError":"Please enter a valid email","phoneError":"Please enter a valid Phone Number eg: 0912345678","passwordError":"Password should be 8 or more characters","emptyFieldError":"This field can not be empty","studentInformation":{"fullName":"Full Name","gender":{"gender":"Gender","male":"Male","female":"Female"},"dateOfBirth":"Date of Birth","phoneNumber":"Phone Number","emailAddress":{"email":"Email Address","description":"We will be using the email as a primary mode of contact"},"socialMedia":{"socialMedia":"Social Media","description":"Your telegram and/or other social media account name"},"address":"Address/City of Residence:","city":["addis-ababa","hawasa","bahirdar","harer","arbaminch"],"schoolName":"School Name:","gradeLevel":"Grade Level:","gradeLevelOptions":["- Select -","Grade 9","Grade 10","Grade 11","Grade 12"],"gradeLevelRequired":"Please select an item in the list.","textInputRequired":"Please fill out this field."},"emergencyContact":{"fullName":"Contact Full Name","phone":"Contact Phone","contactRelationship":"Contact Relationship","otherPhone":"Contact Other Phone","textInputRequired":"Please fill out this field."},"infoProgram":{"platform":["facebook","Instagram","Linkedin","Telegram"],"participatedBefore":{"yes":"Yes","no":"No"},"where":"Where did you hear about this program?","participation":"Have you participated in such kinds of programs before?","experience":"What is your experience with that program? (optional)","coding":"How do you describe coding/programming?","expectations":"What do you expect from this program?","textInputRequired":"Please fill out this field."},"done":{"loading":"Loading...","success":"You have successfully submitted your application.","close":"Close","home":"Go to Homepage"}},{"locale":"am-ET","icon":"/Amharic.svg","label":"አማርኛ","steps":["የተማሪ መረጃ","ኮሌጅ ተማሪዎች","ድንገተኛ አደጋ ተጠሪ","መረጃ ስለ ፕሮግራሙ","ጨርስ/ሽ"],"back":"ተመለስ","continue":"ቀጥል","submitForm":"መረጃውን ላክ","emailError":"እባክዎ ትክክለኛ ኢሜይል ያስገቡ","phoneError":"እባክዎ ትክክለኛ ስልክ ቁጥር ያስገቡ ለምሳሌ 0912345678","passwordError":"የይለፍ ቃል 8 ወይም ከዚያ በላይ ፊደሎች መሆን አለበት","emptyFieldError":"ይህ ቦታ ባዶ ሊሆን አይችልም","studentInformation":{"fullName":"ሙሉ ስም","gender":{"gender":"ፆታ","male":"ወንድ","female":"ሴት"},"dateOfBirth":"የልደት ቀን","phoneNumber":"ስልክ ቁጥር","emailAddress":{"email":"ኢሜይል አድራሻ","description":"ኢሜይሉን እንደ ዋና የግንኙነት ዘዴ እንጠቀማለን"},"socialMedia":{"socialMedia":"ሶሻል ሚዲያ ","description":"የእርስዎ ቴሌግራም እና/ወይም ሌላ የሶሻል ሚዲያ መለያ ስም"},"address":"አድራሻ/የመኖሪያ ከተማ፡","city":["addis-ababa","hawasa","bahirdar","harer","arbaminch"],"schoolName":"የትምህርት ቤት ስም","gradeLevel":"የትምህርት ደረጃ","gradeLevelOptions":["- ይምረጡ -","9ኛ ክፍል","10ኛ ክፍል","11ኛ ክፍል","12ኛ ክፍል"],"gradeLevelRequired":"እባክዎ ከዝርዝሩ መካከል አንድ ይምረጡ","textInputRequired":"እባክዎ ይህንን ቦታ ይሙሉ"},"collegeStudents":{"name":"ስም","department":"ዲፓርትመንት/የጥናት ፊልድ ዓይነት","attendingYear":"የገቡበት አመት"},"emergencyContact":{"fullName":"የተጠሪው ሙሉ ስም","phone":"የተጠሪው ስልክ","otherPhone":"የተጠሪው ተጨማሪ ስልክ","textInputRequired":"እባክዎ ይህንን ቦታ ይሙሉ"},"infoProgram":{"platform":["ፌስቡክ","Instagram","Linkedin","ቴሌግራም"],"participatedBefore":{"yes":"አዎ","no":"አይ"},"where":"ስለዚህ ፕሮግራም የት ሰማህ/ሽ?","participation":"ከዚህ በፊት በእንደዚህ አይነት ፕሮግራሞች ተሳትፈሃል/ሻል?","experience":"ከተሳተፍክ/ሽ በዚያ ፕሮግራም ላይ ያለህ/ሽ ልምድ ምንድን ነው?","coding":"Coding/Programming እንዴት ትገልፀዋለህ/ለሽ?","expectations":"ከዚህ ፕሮግራም ምን ትጠብቃለህ/ለሽ?","textInputRequired":"እባክዎ ይህንን ቦታ ይሙሉ"},"done":{"loading":"በመላክ ላይ...","success":"መረጃዎን በተሳካ ሁኔታ ተልኳል","close":"ዝጋ","home":"ወደ መነሻ ገጽ ሂድ"}}]}');
+
+/***/ })
+
+});

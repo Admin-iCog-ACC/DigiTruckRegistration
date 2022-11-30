@@ -5,7 +5,7 @@
       "icon":"/English.svg",
       "label":"English",
       "steps": [
-        "Student Info",
+        "Student Infom",
 
         "Emergency Contact",
         "Info about the Program",
@@ -36,6 +36,9 @@
           "description": "Your telegram and/or other social media account name"
         },
         "address":"Address/City of Residence:",
+        
+        "city":["addis-ababa","hawasa","bahirdar","harer","arbaminch"],
+
         "schoolName":"School Name:",
         "gradeLevel":"Grade Level:",
         "gradeLevelOptions":[
@@ -52,14 +55,20 @@
       "emergencyContact":{
         "fullName": "Contact Full Name",
         "phone": "Contact Phone",
+        "contactRelationship":"Contact Relationship",
         "otherPhone": "Contact Other Phone",
         "textInputRequired":"Please fill out this field."
 
       },
       "infoProgram":{
+        "platform":["facebook","Instagram","Linkedin","Telegram"],
+        "participatedBefore":{
+          "yes":"Yes",
+          "no":"No"
+        },
         "where": "Where did you hear about this program?",
         "participation": "Have you participated in such kinds of programs before?",
-        "experience":"What is your experience with that program?",
+        "experience":"What is your experience with that program? (optional)",
         "coding": "How do you describe coding/programming?",
         "expectations": "What do you expect from this program?",
         "textInputRequired":"Please fill out this field."
@@ -110,6 +119,8 @@
           "description": "የእርስዎ ቴሌግራም እና/ወይም ሌላ የሶሻል ሚዲያ መለያ ስም"
         },
         "address":"አድራሻ/የመኖሪያ ከተማ፡",
+        "city":["አዲስ አበባ","ሀዋሳ","ባህር ዳር","ሀረር","አርባምንጭ"],
+
         "schoolName":"የትምህርት ቤት ስም",
         "gradeLevel":"የትምህርት ደረጃ",
         "gradeLevelOptions":[
@@ -136,6 +147,11 @@
 
       },
       "infoProgram":{
+        "platform":["ፌስቡክ","Instagram","Linkedin","ቴሌግራም"],
+        "participatedBefore":{
+          "yes":"አዎ",
+          "no":"አይ"
+        },
         "where": "ስለዚህ ፕሮግራም የት ሰማህ/ሽ?",
         "participation": "ከዚህ በፊት በእንደዚህ አይነት ፕሮግራሞች ተሳትፈሃል/ሻል?",
         "experience":"ከተሳተፍክ/ሽ በዚያ ፕሮግራም ላይ ያለህ/ሽ ልምድ ምንድን ነው?",
