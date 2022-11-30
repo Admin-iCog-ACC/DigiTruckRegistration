@@ -20,7 +20,10 @@ export const validateInputs = (name, value, locale) => {
           : FormLabels.labels[1].phoneError;
       return null;
     case "contactPhone":
-      if (value.length === 0) return null;
+      if (value.length === 0)
+        return locale === "en-US"
+          ? FormLabels.labels[0].emptyFieldError
+          : FormLabels.labels[1].emptyFieldError;
       if (!/^09[0-9]{8}$/.test(value))
         return locale === "en-US"
           ? FormLabels.labels[0].phoneError
