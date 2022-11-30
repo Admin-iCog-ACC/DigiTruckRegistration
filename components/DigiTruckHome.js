@@ -5,7 +5,7 @@ function DigiTruckHome() {
   const router = useRouter();
   return (
     <>
-      <div className="md:max-w-[1225px] mx-4 md:mx-auto mt-12 h-[62vh]">
+      <div className="md:max-w-[1225px] mx-4 md:mx-auto mt-12 md:h-[62vh] h-[75vh]">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
           <div>
             <div className="flex flex-wrap ">
