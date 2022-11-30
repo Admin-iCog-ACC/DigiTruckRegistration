@@ -19,7 +19,6 @@ function StudentInformation({ labels, locale }) {
       },
     });
   };
-  console.log(userData);
   return (
     <div className="flex flex-col  ">
       <div className="w-full sm:w-1/2 md:w-2/3 flex-1">

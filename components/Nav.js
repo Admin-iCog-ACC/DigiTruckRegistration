@@ -146,10 +146,10 @@ function Nav() {
           </a>
           <a
             // onClick={(e) => router.push('/register')}
-            href='booklet.pdf'
-            className="text-xl text-white px-5 py-3 rounded bg-[#EE4823]"
+            href='https://icogacc.com/register'
+            className="text-xl text-white px-5 py-3 rounded bg-[#178c9f]"
           >
-            Booklet
+            Register
           </a>
         </div>
         <div

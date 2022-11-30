@@ -15,7 +15,7 @@ function DigiTruckHome() {
                 </h1>
                 <h1 className="text-[24px] text-[#333333] leading-tight">
                   Ethiopia’s first ever moving coding classroom. 
-                  Built to bring students closer to the world if coding and a better learning
+                  Built to bring students closer to the world of coding and a better learning
                   experience.
                 </h1>
               </div>

@@ -16,8 +16,8 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-app.use('/', registrationRoute);
 app.use('/', accRoute);
+app.use('/', registrationRoute);
 
 app.use(notFound);
 app.use(errorHandler);

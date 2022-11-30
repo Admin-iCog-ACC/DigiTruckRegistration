@@ -22,7 +22,6 @@ function EmergencyContact({ labels, locale }) {
       },
     });
   };
-  console.log(userData);
   return (
     <div className=" ">
       <div className="md:flex flex-row gap-10">

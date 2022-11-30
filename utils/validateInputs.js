@@ -1,7 +1,6 @@
 import FormLabels from "../assets/forms_i18n.json";
 
 export const validateInputs = (name, value, locale) => {
-  console.log(name);
   switch (name) {
     case "email":
       const passed =
