@@ -19,11 +19,11 @@ function Home() {
         <Nav />
       </RecoilRoot>
       <DigiTruckHome />
-      <div className=' w-100% h-[90vh] clear-both bg-[url("/digitruck_interior_E_1.JPG")] bg-no-repeat bg-fixed bg-cover bg-[#178c9f]'></div>
+      <div className=' w-100% h-[90vh] clear-both bg-[url("/digitruck_interior_E_1.jpg")] bg-no-repeat bg-fixed bg-cover bg-[#178c9f]'></div>
       <div className="bg-[#f7f9ff] p-10"></div>
 
       <BackgroundSection />
-      <div className=' w-100% h-[90vh] clear-both bg-[url("/digitruck_interior_E_2.JPG")] bg-no-repeat bg-fixed bg-cover bg-[#178c9f]'></div>
+      <div className=' w-100% h-[90vh] clear-both bg-[url("/digitruck_interior_E_2.jpg")] bg-no-repeat bg-fixed bg-cover bg-[#178c9f]'></div>
 
       <ThreePoints />
       <PartnersSection />
