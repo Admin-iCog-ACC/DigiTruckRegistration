@@ -1,6 +1,7 @@
 import { Router } from 'express';
 import mongoose from 'mongoose';
 import { errorCatcher } from './error.js';
+import cors from 'cors';
 
 const accSchema = mongoose.Schema(
   {
@@ -49,6 +50,6 @@ async function registerAcc(req, res) {
 
 const router = Router();
 
-router.route('/acc').post(errorCatcher(registerAcc));
+router.route('/acc').post(cors(),errorCatcher(registerAcc));
 
 export default router;

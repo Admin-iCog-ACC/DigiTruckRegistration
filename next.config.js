@@ -5,14 +5,6 @@ const nextConfig = {
     locales: ["en-US", "am-ET"],
     defaultLocale: "en-US",
   },
-  async rewrites() {
-    return [
-      {
-        source: '/api/:path*',
-        destination: 'https://digitruckethiopia.icogacc.com/:path*',
-      },
-    ]
-  },
 };
 
 module.exports = nextConfig;
