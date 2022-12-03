@@ -144,13 +144,7 @@ function Nav() {
           >
             <span className="mr-1">DigiTruck</span>
           </a>
-          <a
-            // onClick={(e) => router.push('/register')}
-            href='https://icogacc.com/register'
-            className="text-xl text-white px-5 py-3 rounded bg-[#178c9f]"
-          >
-            Register
-          </a>
+
         </div>
         <div
           className="lg:hidden text-4xl text-[#178c9f]"
