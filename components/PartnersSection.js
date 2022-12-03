@@ -5,13 +5,13 @@ function PartnersSection() {
     <div className="w-full partner-bg bg-[#087b8d] px-10 pb-20 ">
       <div className="flex flex-col items-center text-white my-10 space-y-3 pb-10">
       </div>
-      <div className="grid grid-cols-2 lg:grid-cols-3 gap-10 pb-5">
+      <div className="grid grid-cols-2 lg:grid-cols-3 md:gap-10 gap-5 pb-5">
         <div className="flex items-center justify-center">
           <a
             href="https://icogacc.com/"
             title="iCog-ACC"
             // target="_blank"
-            className="relative md:w-56 md:h-60 w-64 h-52"
+            className="relative w-56 h-60"
           >
             <Image
               className=""
