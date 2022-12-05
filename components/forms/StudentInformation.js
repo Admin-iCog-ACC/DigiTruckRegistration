@@ -100,13 +100,13 @@ function StudentInformation({ labels, locale }) {
       <div className="md:flex flex-row gap-10">
         <div className="w-full sm:w-1/2 md:w-2/3  flex-1">
           <label className="label-style">{labels.emailAddress.email}</label>
-          <Required />
+          {/* <Required /> */}
           <p className="text-xs text-slate-400">
             {labels.emailAddress.description}{" "}
           </p>
           <div className="input-div-style">
             <input
-              required
+              // required
               title={labels.textInputRequired}
               type="email"
               onChange={handleChange}

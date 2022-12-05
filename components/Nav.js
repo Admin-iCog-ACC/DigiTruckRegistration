@@ -44,7 +44,7 @@ function Nav() {
           </a>
 
           <div className="group inline-block relative">
-            <a className="text-black hover:text-[#178c9f] inline-flex items-center">
+            <a className="text-black hover:text-[#178c9f] inline-flex items-center cursor-default">
               <span className="mr-1">About Us</span>
               <svg
                 className="fill-current h-4 w-4"
@@ -74,7 +74,7 @@ function Nav() {
             </ul>
           </div>
           <div className="group inline-block relative">
-            <a className="text-black hover:text-[#178c9f] inline-flex items-center">
+            <a className="text-black hover:text-[#178c9f] inline-flex items-center cursor-default">
               <span className="mr-1">Impact</span>
               <svg
                 className="fill-current h-4 w-4"

@@ -100,6 +100,9 @@
       "done": {
         "loading": "Loading...",
         "success": "You have successfully submitted your application.",
+        "consent_start": "When you come for training, you must bring this ",
+        "consent_end": ", signed by your parents/guardians.",
+        "consent_form": "Consent Form",
         "close": "Close",
         "home": "Go to Homepage"
       }
@@ -205,6 +208,9 @@
       "done": {
         "loading": "በመላክ ላይ...",
         "success": "መረጃዎን በተሳካ ሁኔታ ተልኳል",
+        "consent_start": "ለሥልጠና ስትመጣ/ጪ ይህን ",
+        "consent_end": " በወላጆች/አሳዳጊዎች አስፈረመህ/ሽ ማምጣት ይኖርብሃል/ሻል።",
+        "consent_form": "የስምምነት ቅጽ",
         "close": "ዝጋ",
         "home": "ወደ መነሻ ገጽ ሂድ"
       }

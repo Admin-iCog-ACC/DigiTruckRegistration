@@ -28,16 +28,16 @@ export default function StepperControl({ handleClick, currentStep, steps, labels
   const count = values.filter((data) => data?.required).length;
   switch (currentStep) {
     case 1:
-      unfinishedStep = count < 7;
+      unfinishedStep = count < 6;
       break;
     // case 2:
     //   unfinishedStep = count < 6;
     //   break;
     case 2:
-      unfinishedStep = count < 10;
+      unfinishedStep = count < 9;
       break;
     case 3:
-      unfinishedStep = count < 14;
+      unfinishedStep = count < 13;
       break;
     default:
       break;

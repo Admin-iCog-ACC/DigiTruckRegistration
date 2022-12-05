@@ -1,7 +1,7 @@
 import { useMutation } from "react-query";
 import { useRouter } from "next/router";
 import { acc } from "../../utils/api";
-import React from 'react';
+import React from "react";
 import Link from "next/link";
 
 export default function Final({ labels, locale }) {
@@ -9,8 +9,8 @@ export default function Final({ labels, locale }) {
   const router = useRouter();
   const { defaultLocale } = useRouter();
   React.useEffect(() => {
-    window.scrollTo({ top: 0, behavior: 'smooth' });   
-  }, [])
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }, []);
   const handleRedirect = (e) => {
     e.preventDefault();
     router.push("/", { locale: defaultLocale });
@@ -55,10 +55,13 @@ export default function Final({ labels, locale }) {
           <div className="text-lg font-semibold text-gray-500">
             {labels.success}{" "}
           </div>
+          <div className="mt-5 text-md font-semibold text-gray-500">
+            {labels.consent_start}
+            <a className="mt-5 text-blue-600 underline" href="https://docs.google.com/document/d/1ZLDdkdT_Rie9bQbyQt4LBNaZikVpzIBFSiREWGVFmZg/edit?usp=drivesdk" target="_blank" rel="noopener noreferrer">{labels.consent_form}</a>
+            {labels.consent_end}
+          </div>
           <a className="mt-10">
-            <button
-              className="h-10 px-5 text-green-700 transition-colors duration-150 border border-gray-300 rounded-lg focus:shadow-outline hover:bg-green-500 hover:text-green-100"
-            >
+            <button className="h-10 px-5 text-green-700 transition-colors duration-150 border border-gray-300 rounded-lg focus:shadow-outline hover:bg-green-500 hover:text-green-100">
               <Link href="/" locale={defaultLocale}>
                 {labels.close}
               </Link>
