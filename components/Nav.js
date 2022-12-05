@@ -301,7 +301,7 @@ function Modal() {
             className="text-black hover:text-[#178c9f] cursor-pointer inline-flex items-center "
             onClick={(e) => router.push('/')}
           >
-            <span className="mr-1">DigiTruck</span>
+            <span className="mr-1">DigiTruck ET</span>
           </a>
           <a
             href="https://icogacc.com/register"
