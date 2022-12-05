@@ -24,7 +24,8 @@
     "react-query": "^3.39.1",
     "react-script": "^2.0.5",
     "react-scroll-motion": "^0.3.0",
-    "recoil": "^0.7.3"
+    "recoil": "^0.7.3",
+    "sharp": "^0.31.2"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.7",
