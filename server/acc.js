@@ -17,7 +17,7 @@ const accSchema = mongoose.Schema(
     },
     phoneNumber: String,
 
-    email: { type: String, required: true },
+    email: { type: String },
     socialMedia: String,
 
     address: { type: String, required: true },
