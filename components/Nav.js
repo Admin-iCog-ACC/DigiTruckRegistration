@@ -296,14 +296,9 @@ function Modal() {
             className="text-black hover:text-[#178c9f] cursor-pointer inline-flex items-center "
             onClick={(e) => router.push('/')}
           >
-            <span className="mr-1">DigiTruck</span>
+            <span className="mr-1">DigiTruck ET</span>
           </a>
-          <a
-            href='booklet.pdf'
-            className="text-xl text-white px-5 py-3 rounded bg-[#EE4823]"
-          >
-            Booklet
-          </a>
+          
         </div>
       </div>
     </div>

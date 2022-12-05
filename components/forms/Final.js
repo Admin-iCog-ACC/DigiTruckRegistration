@@ -57,7 +57,7 @@ export default function Final({ labels, locale }) {
           </div>
           <div className="mt-5 text-md font-semibold text-gray-500">
             {labels.consent_start}
-            <a className="mt-5 text-blue-600 underline" href="https://docs.google.com/document/d/1ZLDdkdT_Rie9bQbyQt4LBNaZikVpzIBFSiREWGVFmZg/edit?usp=drivesdk" target="_blank" rel="noopener noreferrer">{labels.consent_form}</a>
+            <a className="mt-5 text-blue-600 underline" href="https://drive.google.com/file/d/1NH4Tg4oT8yMrOcwmBsrxUnbwLC0TyStx/view?usp=share_link" target="_blank" rel="noopener noreferrer">{labels.consent_form}</a>
             {labels.consent_end}
           </div>
           <a className="mt-10">
