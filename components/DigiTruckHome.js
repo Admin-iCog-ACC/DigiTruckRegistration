@@ -14,7 +14,7 @@ function DigiTruckHome() {
                   DigiTruck <span className="text-[#EE4823]"> Ethiopia </span>
                 </h1> */}
                 <div className=" flex items-start justify-start w-full h-44">
-                  <div className=" w-full md:w-3/5 lg:-ml-4 h-full relative">
+                  <div className=" w-full md:w-5 lg:-ml-7 h-full relative">
                     <Image
                       className=""
                       layout="fill"
