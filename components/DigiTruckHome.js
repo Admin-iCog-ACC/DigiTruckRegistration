@@ -14,13 +14,13 @@ function DigiTruckHome() {
                   DigiTruck <span className="text-[#EE4823]"> Ethiopia </span>
                 </h1> */}
                 <div className=" flex items-start justify-start w-full  h-64 -mt-16">
-                  <div className=" w-full md:w-1/2  h-full relative">
+                  <div className=" w-full md:w-3/5  h-full relative">
                     <Image
                       className=""
                       layout="fill"
                       objectFit="contain"
                       alt=""
-                      src="/logodg2.png"
+                      src="/logodg2-cropped.png"
                     />
                   </div>
                 </div>
