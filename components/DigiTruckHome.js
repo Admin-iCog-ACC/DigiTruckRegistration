@@ -20,7 +20,7 @@ function DigiTruckHome() {
                       layout="fill"
                       objectFit="contain"
                       alt=""
-                      src="/DigiTruck-with-bridging-the-cropped.png"
+                      src="/logodg2.png"
                     />
                   </div>
                 </div>
