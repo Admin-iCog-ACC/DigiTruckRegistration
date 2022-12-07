@@ -1,8 +1,8 @@
-import { useEffect, useState } from 'react';
-import Image from 'next/image';
-import { useRouter } from 'next/router';
-import Link from 'next/link';
-import { AiOutlineMenu } from 'react-icons/ai';
+import { useEffect, useState } from "react";
+import Image from "next/image";
+import { useRouter } from "next/router";
+import Link from "next/link";
+import { AiOutlineMenu } from "react-icons/ai";
 
 function Nav() {
   const [scrollState, setScrollState] = useState(false);
@@ -12,21 +12,21 @@ function Nav() {
     const changeNavBackground = () => {
       setScrollState(window.scrollY > 65);
     };
-    window.addEventListener('scroll', changeNavBackground);
-    return () => window.removeEventListener('scroll', changeNavBackground);
+    window.addEventListener("scroll", changeNavBackground);
+    return () => window.removeEventListener("scroll", changeNavBackground);
   }, [scrollState]);
 
   return (
     <div
       className={
         scrollState
-          ? 'w-full sticky top-0 z-10 h-28  bg-white shadow-lg'
-          : 'w-full sticky top-0 z-10 h-28 bg-transparent '
+          ? "w-full sticky top-0 z-10 h-28  bg-white shadow-lg"
+          : "w-full sticky top-0 z-10 h-28 bg-transparent "
       }
     >
-      <div className="max-w-[1225px] lg:mx-auto mx-5 flex justify-between items-center ">
+      <div className="max-w-[1225px] xl:mx-auto mx-5 flex justify-between items-center ">
         <div
-          className={scrollState ? 'h-28 w-28 relative' : 'h-32 w-32 relative'}
+          className={scrollState ? "h-28 w-28 relative" : "h-32 w-32 relative"}
         >
           <Image
             src="/logo-web_sm.png"
@@ -133,18 +133,17 @@ function Nav() {
           </a>
 
           <a
+            className="text-black hover:text-[#178c9f] cursor-pointer inline-flex items-center "
+            onClick={(e) => router.push("/")}
+          >
+            <span className="mr-1">DigiTruck ET</span>
+          </a>
+          <a
             href="https://icogacc.com/career"
             className="text-black hover:text-[#178c9f] inline-flex items-center"
           >
             <span className="mr-1">Career</span>
           </a>
-          <a
-            className="text-black hover:text-[#178c9f] cursor-pointer inline-flex items-center "
-            onClick={(e) => router.push('/')}
-          >
-            <span className="mr-1">DigiTruck ET</span>
-          </a>
-
         </div>
         <div
           className="lg:hidden text-4xl text-[#178c9f]"
@@ -160,16 +159,16 @@ function Nav() {
 
 export default Nav;
 
-import React from 'react';
-import { useRecoilState } from 'recoil';
-import { navModalState } from '../atoms/navModal';
+import React from "react";
+import { useRecoilState } from "recoil";
+import { navModalState } from "../atoms/navModal";
 
 function Modal() {
   const [isOpen, setIsOpen] = useRecoilState(navModalState);
   return (
     <div
       className={`${
-        isOpen ? 'flex' : 'hidden'
+        isOpen ? "flex" : "hidden"
       } fixed top-7 w-full h-full  flex items-center justify-center`}
     >
       <div className="modal-overlay absolute w-full h-full bg-[#f7f9ff]"></div>
@@ -287,18 +286,18 @@ function Modal() {
           </a>
 
           <a
+            className="text-black hover:text-[#178c9f] cursor-pointer inline-flex items-center "
+            onClick={(e) => router.push("/")}
+          >
+            <span className="mr-1">DigiTruck ET</span>
+          </a>
+
+          <a
             href="https://icogacc.com/career"
             className="text-black hover:text-[#178c9f] inline-flex items-center"
           >
             <span className="mr-1">Career</span>
           </a>
-          <a
-            className="text-black hover:text-[#178c9f] cursor-pointer inline-flex items-center "
-            onClick={(e) => router.push('/')}
-          >
-            <span className="mr-1">DigiTruck ET</span>
-          </a>
-          
         </div>
       </div>
     </div>

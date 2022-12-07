@@ -95,17 +95,7 @@ function Application() {
                                 : "bg-white text-black cursor-pointer"
                             }`}
                           >
-                            <Image
-                              src={
-                                FormLabels.labels.filter(
-                                  (lo) => lo.locale === l
-                                )[0].icon
-                              }
-                              height="25px"
-                              width="25px"
-                              alt={l}
-                            />
-                            <p className="ml-2 md:text-sm text-xs">
+                            <p className="md:text-sm text-xs font-bold">
                               {
                                 FormLabels.labels.filter(
                                   (lo) => lo.locale === l

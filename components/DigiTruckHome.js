@@ -5,17 +5,29 @@ function DigiTruckHome() {
   const router = useRouter();
   return (
     <>
-      <div className="md:max-w-[1225px] mx-4 md:mx-auto mt-12 md:h-[62vh] h-[75vh]">
+      <div className="md:max-w-[1225px] mx-4 xl:mx-auto mt-12 md:h-[62vh] h-[75vh]">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
           <div>
             <div className="flex flex-wrap ">
               <div className=" space-y-1">
-                <h1 className="text-[60px]  font-fredoka regular text-[#175daa]">
+                {/* <h1 className="text-[60px]  font-fredoka regular text-[#175daa]">
                   DigiTruck <span className="text-[#EE4823]"> Ethiopia </span>
-                </h1>
+                </h1> */}
+                <div className=" flex items-start justify-start w-full h-44">
+                  <div className=" w-full md:w-3/5 lg:-ml-4 h-full relative">
+                    <Image
+                      className=""
+                      layout="fill"
+                      objectFit="contain"
+                      alt=""
+                      src="/digitruck_text.png"
+                    />
+                  </div>
+                </div>
+
                 <h1 className="text-[24px] text-[#333333] leading-tight">
-                  Ethiopia’s moving coding classroom. 
-                  Built to bring students closer to the world of coding and a better learning
+                  Ethiopia’s moving coding classroom. Built to bring students
+                  closer to the world of coding and a better learning
                   experience.
                 </h1>
               </div>

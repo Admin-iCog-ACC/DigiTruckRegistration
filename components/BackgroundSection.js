@@ -17,7 +17,7 @@ function BackgroundSection() {
 
           </p>
         </div>
-        <div className="relative md:h-100 md:w-100 h-60 w-full md:mx-0 mx-4">
+        <div className="relative md:h-100 md:w-100 h-72 w-full md:mx-0 mx-4">
           <Image src="/digiHome.png" layout="fill" objectFit="contain" alt='' />
         </div>
       </div>
