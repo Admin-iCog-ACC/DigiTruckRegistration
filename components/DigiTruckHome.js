@@ -4,8 +4,8 @@ import { useRouter } from "next/router";
 function DigiTruckHome() {
   const router = useRouter();
   return (
-    <>
-      <div className="md:max-w-[1225px] mx-4 xl:mx-auto mt-12 md:h-[62vh] h-[75vh]">
+    <div>
+      <div className="md:max-w-[1225px] mx-4 xl:mx-auto mt-12 md:h-[70vh] h-[80vh] 2xl:h-[50vh]">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
           <div>
             <div className="flex flex-wrap ">
@@ -13,14 +13,14 @@ function DigiTruckHome() {
                 {/* <h1 className="text-[60px]  font-fredoka regular text-[#175daa]">
                   DigiTruck <span className="text-[#EE4823]"> Ethiopia </span>
                 </h1> */}
-                <div className=" flex items-start justify-start w-full h-44">
-                  <div className=" w-full md:w-3/5 lg:-ml-4 h-full relative">
+                <div className=" flex items-start justify-start w-full  h-64 -mt-16">
+                  <div className=" w-full md:w-1/2  h-full relative">
                     <Image
                       className=""
                       layout="fill"
                       objectFit="contain"
                       alt=""
-                      src="/digitruck_text.png"
+                      src="/DigiTruck-with-bridging-the-cropped.png"
                     />
                   </div>
                 </div>
@@ -32,7 +32,7 @@ function DigiTruckHome() {
                 </h1>
               </div>
             </div>
-            <div className="flex justify-center lg:justify-start  mt-14">
+            <div className="flex justify-center md:justify-start  mt-10">
               <button
                 className="bg-[#175daa] w-48 py-3.5 text-white rounded-[4px] shadom-md flex justify-center items-center space-x-2 group"
                 onClick={(e) => router.push("/application")}
@@ -47,16 +47,16 @@ function DigiTruckHome() {
           </div>
         </div>
       </div>
-      <div className="relative -mb-5 md:h-24 h-24 -mx-0">
-        <Image
-          className=""
+      <div className="bg-repeat-x bg-cover w-full h-10 bg-[url('/home-cropped2.png')]">
+        {/* <Image
+          className="bg-repeat-x"
           layout="fill"
           objectFit="cover"
           alt=""
           src="/home.png"
-        />
+        /> */}
       </div>
-    </>
+    </div>
   );
 }
 
