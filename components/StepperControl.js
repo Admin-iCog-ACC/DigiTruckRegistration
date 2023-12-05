@@ -10,12 +10,13 @@ export default function StepperControl({ handleClick, currentStep, steps, labels
   // const router = useRouter();
 
   const sendForm = () => {
-    if (userData !== null || userData === {}) {
+    if (userData !== null || Object.keys(userData).length !== 0) {
       const newData = modifyObj(userData);
       mutate(newData);
     }
     handleClick('next');
   };
+  
 
   // useEffect(() => {
   //   if (data && !error) {

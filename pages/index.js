@@ -7,13 +7,14 @@ import DigiTruckHome from "../components/DigiTruckHome";
 import BackgroundSection from "../components/BackgroundSection";
 import PartnersSection from "../components/PartnersSection";
 import ThreePoints from "../components/ThreePoints";
-import Resource from "../components/Resource";
+import BackgroundSection2 from "../components/BackgroundSection2";
 import Head from "next/head";
 import Image from "next/image";
+import BlueCardSection from "../components/BlueCardSection";
 
 function Home() {
   return (
-    <div className="bg-[#f6f9ff] font-raleway banner-bg-img">
+    <div className="bg-[#f6f9ff] min-w-full font-raleway banner-bg-img">
       <Head>
         <title>DigiTruck Ethiopia</title>
       </Head>
@@ -21,28 +22,19 @@ function Home() {
         <Nav />
       </RecoilRoot>
       <DigiTruckHome />
-      <div className=" w-100% h-[90vh] relative  bg-[#178c9f]">
-        <Image
-          objectFit="cover"
-          layout="fill"
-          alt=""
-          src="/digitruck_interior_E_1.JPG"
-        />
+
+
+      <BackgroundSection2 />
+
+      <div className="partner-bg ">
+        <BlueCardSection />
       </div>
-      <div className="bg-[#f7f9ff] p-10"></div>
+
 
       <BackgroundSection />
-      <div className=" w-100% h-[90vh] relative  bg-[#178c9f]">
-        <Image
-          objectFit="cover"
-          layout="fill"
-          alt=""
-          src="/digitruck_interior_E_2.jpg"
-        />
+      <div className="partner-bg">
+        <PartnersSection />
       </div>
-
-      <ThreePoints />
-      <PartnersSection />
       <Footer />
     </div>
   );

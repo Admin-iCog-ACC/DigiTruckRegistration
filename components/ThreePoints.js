@@ -13,7 +13,7 @@ function ThreePoints() {
     <>
       <div
         data-aos="fade-up"
-        className="p-5 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-5 px-14 pt-20 pb-14"
+        className="p-5 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-5 px-14 py-20 pb-14"
       >
         <div className="group flex flex-col justify-center items-center rounded-xl shadow-xl hover:shadow-2xl transition ease-in-out duration-300  py-20 ">
           <div className="relative w-20 h-20">
@@ -61,15 +61,7 @@ function ThreePoints() {
           </div>
         </div>
       </div>
-      <div className="bg-repeat-x bg-cover w-full h-10  bg-[url('/home-cropped2.png')]">
-        {/* <Image
-          className="bg-repeat-x"
-          layout="fill"
-          objectFit="cover"
-          alt=""
-          src="/home.png"
-        /> */}
-      </div>
+
     </>
   );
 }

@@ -20,11 +20,11 @@ function Nav() {
     <div
       className={
         scrollState
-          ? "w-full sticky top-0 z-10 h-28  bg-white shadow-lg"
-          : "w-full sticky top-0 z-10 h-28 bg-transparent "
+          ? "w-full sticky top-0 z-30 h-28  bg-white shadow-lg"
+          : "w-full sticky top-0 z-30 h-28 bg-transparent "
       }
     >
-      <div className="max-w-[1225px] xl:mx-auto mx-5 flex justify-between items-center ">
+      <div className="max-w-[1225px] xl:mx-auto mx-5 flex justify-between items-center">
         <div
           className={scrollState ? "h-28 w-28 relative" : "h-32 w-32 relative"}
         >

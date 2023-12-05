@@ -2,11 +2,13 @@ import Image from "next/image";
 
 function PartnersSection() {
   return (
-    <div className="w-full partner-bg bg-[#087b8d] px-10 pb-20 ">
-      <div className="flex flex-col items-center text-white my-10 space-y-3 pb-10">
-      </div>
-      <div className="grid grid-cols-3 md:gap-10 gap-5 pb-5">
-        <div className="flex items-center justify-center">
+    <div className="h-full">
+
+    <div className="w-full  px-10 pb-20 ">
+    <h2 className="text-4xl pt-10 font-fredoka text-[#175DAA] text-center">Our Partners</h2>
+      <div className="grid pt-20 md:grid-cols-3 grid-cols-1 md:gap-10 gap-20 pb-5">
+
+        <div className="flex pt-5 md:pt-0 items-center justify-center">
           <a
             href="https://icogacc.com/"
             title="iCog-ACC"
@@ -55,6 +57,7 @@ function PartnersSection() {
           </a>
         </div>
       </div>
+    </div>
     </div>
   );
 }
