@@ -3,6 +3,7 @@ import Image from "next/image";
 import { useRouter } from "next/router";
 import Link from "next/link";
 import { AiOutlineMenu } from "react-icons/ai";
+import dynamic from "next/dynamic";
 
 function Nav() {
   const [scrollState, setScrollState] = useState(false);
@@ -24,7 +25,7 @@ function Nav() {
           : "w-full sticky top-0 z-30 h-28 bg-transparent "
       }
     >
-      <div className="max-w-[1225px] xl:mx-auto mx-5 flex justify-between items-center">
+      <div className="max-w-[1225px] font-raleway xl:mx-auto mx-5 flex justify-between items-center">
         <div
           className={scrollState ? "h-28 w-28 relative" : "h-32 w-32 relative"}
         >
@@ -35,7 +36,7 @@ function Nav() {
             alt=""
           />
         </div>
-        <div className="lg:flex text-base font-semibold hidden space-x-10 items-center">
+        <div className="lg:flex text-[16px] font-normal hidden space-x-8 items-center">
           <a
             href="https://icogacc.com/"
             className="text-black hover:text-[#178c9f] inline-flex items-center "
@@ -87,14 +88,6 @@ function Nav() {
             <ul className="absolute hidden text-gray-700 py-5 bg-white group-hover:block w-48">
               <li className="">
                 <a
-                  className="rounded-t bg-white hover:text-[#178c9f] py-2 px-4 block whitespace-no-wrap"
-                  href="https://icogacc.com/impact/girls+can+code"
-                >
-                  Girls Can Code
-                </a>
-              </li>
-              <li className="">
-                <a
                   className="bg-white hover:text-[#178c9f] py-2 px-4 block whitespace-no-wrap"
                   href="https://icogacc.com/impact/public+workshops"
                 >
@@ -103,10 +96,36 @@ function Nav() {
               </li>
               <li className="">
                 <a
+                  className="bg-white hover:text-[#178c9f] py-2 px-4 block whitespace-no-wrap"
+                  href="https://aysrh.icogacc.com/"
+                >
+                  AYSRH
+                </a>
+              </li>
+              <li className="">
+                <a
+                  className="rounded-t bg-white hover:text-[#178c9f] py-2 px-4 block whitespace-no-wrap"
+                  href="https://icogacc.com/impact/girls+can+code"
+                >
+                  Girls Can Code
+                </a>
+              </li>
+
+              <li className="">
+                <a
                   className="rounded-b bg-white hover:text-[#178c9f] py-2 px-4 block whitespace-no-wrap"
                   href="https://icogacc.com/impact/solve+it"
                 >
                   Solve IT
+                </a>
+              </li>
+
+              <li className="">
+                <a
+                  className="rounded-b bg-white hover:text-[#178c9f] py-2 px-4 block whitespace-no-wrap"
+                  href="https://icogacc.com/impact/solve+it"
+                >
+                  Social Impact
                 </a>
               </li>
             </ul>
@@ -126,13 +145,6 @@ function Nav() {
           </a>
 
           <a
-            href="https://aysrh.icogacc.com/"
-            className="text-black hover:text-[#178c9f] inline-flex items-center "
-          >
-            <span className="mr-1">AYSRH</span>
-          </a>
-
-          <a
             className="text-black hover:text-[#178c9f] cursor-pointer inline-flex items-center "
             onClick={(e) => router.push("/")}
           >
@@ -144,6 +156,20 @@ function Nav() {
           >
             <span className="mr-1">Career</span>
           </a>
+          <button
+            type="button"
+            href="https://icogacc.com/register"
+            class="text-white bg-[#178c9f] hover:bg-[#198a9b] text-lg font-semibold rounded-lg  px-7 py-3 me-2 mb-2"
+          >
+            Register
+          </button>
+          <button
+            type="button"
+            href="https://donation.icogacc.com/"
+            class="text-white bg-[#178c9f] hover:bg-[#198a9b] text-lg font-semibold rounded-lg  px-7 py-3 me-2 mb-2"
+          >
+            Donate
+          </button>
         </div>
         <div
           className="lg:hidden text-4xl text-[#178c9f]"
@@ -156,8 +182,7 @@ function Nav() {
     </div>
   );
 }
-
-export default Nav;
+export default dynamic(() => Promise.resolve(Nav), { ssr: false });
 
 import React from "react";
 import { useRecoilState } from "recoil";
@@ -196,7 +221,7 @@ function Modal() {
             <span className="mr-1">Home</span>
           </a>
 
-          <div className="group inline-block relative">
+          <div className="group z-10 inline-block relative">
             <a className="text-black hover:text-[#178c9f] inline-flex items-center">
               <span className="mr-1">About Us</span>
               <svg
@@ -210,7 +235,7 @@ function Modal() {
             <ul className="absolute  hidden text-gray-700 py-5 group-hover:block w-48 bg-white ">
               <li className="">
                 <a
-                  className="rounded-t bg-white hover:text-[#178c9f] py-2 px-4 block whitespace-no-wrap"
+                  className="rounded-t bg-white hover:text-[#178c9f] py-4 px-4 block whitespace-no-wrap"
                   href="https://icogacc.com/about+us/our+team"
                 >
                   Our Team
@@ -218,7 +243,7 @@ function Modal() {
               </li>
               <li className="">
                 <a
-                  className="bg-white hover:text-[#178c9f] py-2 px-4 block whitespace-no-wrap"
+                  className="bg-white hover:text-[#178c9f] py-4 px-4 block whitespace-no-wrap"
                   href="https://icogacc.com/about+us/who+are+we"
                 >
                   Who Are We
@@ -239,16 +264,9 @@ function Modal() {
             </a>
             <ul className="absolute hidden text-gray-700 py-5 bg-white group-hover:block w-48">
               <li className="">
-                <a
-                  className="rounded-t bg-white hover:text-[#178c9f] py-2 px-4 block whitespace-no-wrap"
-                  href="https://icogacc.com/impact/girls+can+code"
-                >
-                  Girls Can Code
-                </a>
-              </li>
               <li className="">
                 <a
-                  className="bg-white hover:text-[#178c9f] py-2 px-4 block whitespace-no-wrap"
+                  className="bg-white hover:text-[#178c9f] py-3 px-4 block whitespace-no-wrap"
                   href="https://icogacc.com/impact/public+workshops"
                 >
                   Public Workshops
@@ -256,10 +274,34 @@ function Modal() {
               </li>
               <li className="">
                 <a
-                  className="rounded-b bg-white hover:text-[#178c9f] py-2 px-4 block whitespace-no-wrap"
+                  className="bg-white hover:text-[#178c9f] py-3 px-4 block whitespace-no-wrap"
+                  href="https://aysrh.icogacc.com/"
+                >
+                  AYSRH
+                </a>
+              </li>
+                <a
+                  className="rounded-t bg-white hover:text-[#178c9f] py-3 px-4 block whitespace-no-wrap"
+                  href="https://icogacc.com/impact/girls+can+code"
+                >
+                  Girls Can Code
+                </a>
+              </li>
+  
+              <li className="">
+                <a
+                  className="rounded-b bg-white hover:text-[#178c9f] py-3 px-4 block whitespace-no-wrap"
                   href="https://icogacc.com/impact/solve+it"
                 >
                   Solve IT
+                </a>
+              </li>
+              <li className="">
+                <a
+                  className="rounded-b bg-white hover:text-[#178c9f] py-3 px-4 block whitespace-no-wrap"
+                  href="https://icogacc.com/impact/solve+it"
+                >
+                  Social Impact
                 </a>
               </li>
             </ul>
@@ -276,13 +318,6 @@ function Modal() {
             className="text-black hover:text-[#178c9f] inline-flex items-center "
           >
             <span className="mr-1">Blog</span>
-          </a>
-
-          <a
-            href="https://aysrh.icogacc.com/"
-            className="text-black hover:text-[#178c9f] inline-flex items-center "
-          >
-            <span className="mr-1">AYSRH</span>
           </a>
 
           <a

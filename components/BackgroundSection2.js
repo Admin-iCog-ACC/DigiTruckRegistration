@@ -15,7 +15,9 @@ function BackgroundSection() {
           </div>
 
           <div className="space-y-6 py-12 lg:pl-4">
-            <h2 className="text-4xl font-fredoka text-[#175DAA] text-center">About US</h2>
+            <h2 className="text-4xl font-fredoka text-[#175DAA] text-center">
+              About US{" "}
+            </h2>
             <p className="text-lg text-gray-600 text-center md:text-left">
               What makes DigiTruck Ethiopia unique is that it is a fully
               refurbished and digital 40ft (12m) container trailer truck crafted
@@ -27,9 +29,34 @@ function BackgroundSection() {
           </div>
         </div>
       </div>
-      {/* <div className="bg-repeat-x bg-cover w-full h-10 mt-32 bg-[url('/home-cropped2.png')]">
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mx-auto max-w-screen-lg p-4">
+        <div class="card bg-[#ef4b20] text-white rounded-xl shadow-lg p-4">
+          <h3 class="font-bold text-xl mb-2">
+            Train Students in Emerging Technologies
+          </h3>
+          <p>
+            Equip students with the skills they need to succeed in the
+            ever-changing tech landscape.
+          </p>
+        </div>
 
-      </div> */}
+        <div class="card bg-[#1a5fab] text-white  rounded-xl shadow-lg p-4">
+          <h3 class="font-bold text-xl mb-2">
+            Narrow the Gender Gap in Digital Skills
+          </h3>
+          <p>Empower women and girls to become leaders in the digital world.</p>
+        </div>
+
+        <div class="card bg-[#ef4b20] text-white rounded-xl shadow-lg p-4">
+          <h3 class="font-bold text-xl mb-2">
+            Build a Digital Community for Students
+          </h3>
+          <p>
+            Connect students with each other and provide them with resources and
+            support.
+          </p>
+        </div>
+      </div>
     </>
   );
 }

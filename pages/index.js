@@ -11,6 +11,8 @@ import BackgroundSection2 from "../components/BackgroundSection2";
 import Head from "next/head";
 import Image from "next/image";
 import BlueCardSection from "../components/BlueCardSection";
+import BackgroundSection3 from "../components/BackgroundSection3";
+import Achievments from "../components/Achievments";
 
 function Home() {
   return (
@@ -23,18 +25,20 @@ function Home() {
       </RecoilRoot>
       <DigiTruckHome />
 
-
       <BackgroundSection2 />
 
-      <div className="partner-bg ">
-        <BlueCardSection />
+      <div className="partner-bg md:mt-10">
+        <BackgroundSection />
       </div>
 
+      <Achievments />
 
-      <BackgroundSection />
-      <div className="partner-bg">
+      <div className="partner-bg md:pb-20 pb-48">
+        <BlueCardSection />
         <PartnersSection />
       </div>
+
+      {/* <BackgroundSection3/> */}
       <Footer />
     </div>
   );

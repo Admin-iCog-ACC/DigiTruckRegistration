@@ -14,9 +14,7 @@ export default function CustomComponent() {
   return (
     <>
       <div className="relative  mb-5 max-w-[1000px] mx-auto p-6  rounded-lg">
-        <div className="absolute inset-0 bg-[#487fbc] mx-6 md:mx-0 opacity-90 max-h-[65%] rounded-lg">
-          
-        </div>
+        <div className="absolute inset-0 bg-[#487fbc] mx-6 md:mx-0 opacity-80 max-h-[65%] rounded-lg"></div>
         <h1 className="text-5xl relative pt-4 font-raleway font-medium text-white md:text-left text-center">
           Coding Club
         </h1>
@@ -32,31 +30,33 @@ export default function CustomComponent() {
           software that address community challenges.
         </p>
         <div className="grid pt-16 grid-cols-1 md:grid-cols-2 gap-4">
-          <div class="max-w-sm bg-white z-10 mx-auto border border-gray-200 rounded-lg ">
+          <div class="max-w-sm z-10 bg-white  mx-auto  rounded-lg ">
             <div class="p-5">
               <a href="#">
-                <h5 class="mb-2 text-xl  tracking-tight text-black">
-                  Addis Ababa
+                <h5 class="mb-2 text-xl font-fredoka tracking-tight text-[#175DAA]">
+                  Resources
                 </h5>
               </a>
-              <p class="mb-3 font-light text-black">
-                Lorem ipsum Lorem ipsum lorem
+              <p class="mb-3 text-sm font-light text-black" href="/">
+                In here you can find everything you need to learn and improve
+                your coding skills.
               </p>
             </div>
             <a href="#">
-              <img className="" src="/interior.jpg" alt="" />
+              <img className="" src="/Picture11.jpg" alt="" />
             </a>
           </div>
 
-          <div class="max-w-sm z-10 bg-white border mx-auto border-gray-200 rounded-lg ">
+          <div class="max-w-sm z-10 bg-white  mx-auto  rounded-lg ">
             <div class="p-5">
               <a href="#">
-                <h5 class="mb-2 text-xl  tracking-tight text-black">
-                  Addis Ababa
+                <h5 class="mb-2 text-xl font-fredoka tracking-tight text-[#175DAA]">
+                  Coding Club
                 </h5>
               </a>
-              <p class="mb-3 font-light text-black">
-                Lorem ipsum Lorem ipsum lorem
+              <p class="mb-3 text-sm font-light text-black">
+                In here you can find the google form to register for our coding
+                club.
               </p>
             </div>
             <a href="#">
@@ -65,7 +65,7 @@ export default function CustomComponent() {
           </div>
         </div>
       </div>
-      <div className="md:flex-row h-[105px] bg-[#d1dfee] max-w-[1000px] mx-auto max-h-[25%] items-center justify-center w-full flex-1 my-20 text-center  md:flex hidden">
+      {/* <div className="md:flex-row h-[105px] bg-[#d1dfee] max-w-[1000px] mx-auto max-h-[25%] items-center justify-center w-full flex-1 my-20 text-center  md:flex hidden">
         <div className="flex flex-wrap justify-around max-w-4xl mt-2 sm:w-full">
           <div className="flex flex-col p-4 m-2 rounded-lg sm:m-4">
             <img
@@ -120,7 +120,7 @@ export default function CustomComponent() {
             <span className="text-md font-bold">27 Teachers</span>
           </div>
         </div>
-      </div>
+      </div> */}
     </>
   );
 }

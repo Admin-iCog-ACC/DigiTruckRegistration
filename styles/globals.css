@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;800&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -8,15 +8,11 @@
 * {
   padding: 0;
   margin: 0;
-
 }
 
 .partner-bg {
-  background: url('/imageBgC.png') center no-repeat;
+  background: url("/imageBg.png") center repeat;
   background-size: cover;
- 
-
-
 }
 
 @layer components {
@@ -38,3 +34,8 @@
     @apply w-full appearance-none p-1 px-2 text-gray-800 outline-none;
   }
 }
+
+
+
+
+

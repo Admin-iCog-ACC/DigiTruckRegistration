@@ -27,9 +27,9 @@ function DigiTruckHome() {
                 </div>
 
                 <h1 className="text-[24px] pt-16 md:pt-5 text-center font-medium  md:text-left text-[#333333] leading-tight">
-                  Digitruck Ethiopia is currently accepting registration for
-                  primary and secondary students from cities of Adama, Hawassa,
-                  Jimma aged between 12-18 years old.
+                  Ethiopia’s moving coding classroom. Built to bring students
+                  closer to the world of coding and a better learning
+                  experience.
                 </h1>
               </div>
             </div>
