@@ -19,12 +19,12 @@ function BackgroundSection() {
               About US{" "}
             </h2>
             <p className="text-lg text-gray-600 text-center md:text-left">
-              What makes DigiTruck Ethiopia unique is that it is a fully
-              refurbished and digital 40ft (12m) container trailer truck crafted
-              to be powered by sunlight or electricity and outfitted with a
-              variety of 21st-century electronic devices for student learning
-              and training such as laptop computers, robotic devices,
-              microelectronics and many more for student learning and training.
+              DigiTruck Ethiopia, the cutting-edge mobile technology education
+              center on a mission to promote STEAM (science, technology,
+              engineering, arts and mathematics) education throughout Ethiopia.
+              We stand committed to providing coding and robotics training to
+              underprivileged students and aspiring professionals by leveraging
+              our state-of-the-art mobile platform.
             </p>
           </div>
         </div>

@@ -36,7 +36,7 @@ export default function () {
               src="people.png"
             />
           </div>
-          <span className="text-md font-bold">200 Students</span>
+          <span className="text-md font-bold">930 Students</span>
         </div>
 
         <div className="flex flex-col items-center md:col-start-1 md:col-span-2">
@@ -46,7 +46,7 @@ export default function () {
               src="female.png"
             />
           </div>
-          <span className="text-md font-bold">348 Female</span>
+          <span className="text-md font-bold">375 Female</span>
         </div>
 
         <div className="flex flex-col items-center md:col-start-3 md:col-span-2 ">
