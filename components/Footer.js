@@ -102,7 +102,7 @@ function Footer() {
       <div className="px-5 lg:px-none flex justify-center text-[#178c9f] text-sm py-8">
         <div className="space-y-2">
           <span>
-            © Copyright 2022
+            © Copyright 2024
             <strong className="font-bold">
               <span> iCog Anyone Can Code</span>
             </strong>
