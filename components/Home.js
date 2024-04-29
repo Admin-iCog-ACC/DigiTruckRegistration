@@ -19,10 +19,7 @@ function Landing() {
             students, in particular, face challenges in STEM education due to a
             lack of comprehensive curriculum and adequate infrastructure.
           </p>
-          <a
-            href="https://impact.icogacc.com/"
-            className="inline-block"
-          >
+          <a href="https://impact.icogacc.com/" className="inline-block">
             <button
               className="flex items-center gap-2 px-6 py-3 font-sans text-xs font-bold text-center text-gray-900 uppercase align-middle transition-all rounded-lg select-none disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none hover:bg-gray-900/10 active:bg-gray-900/20"
               type="button"
@@ -57,17 +54,16 @@ function Landing() {
         </div>
         <div className="p-6">
           <h4 className="block mb-2 font-sans text-3xl antialiased font-semibold leading-snug tracking-normal text-[#178c9f]">
-            Public Workshop
+            Digital Literacy
           </h4>
-          <p className="block mb-8 font-sans text-base antialiased font-normal leading-relaxed text-gray-700">
-            The majority of kids in Ethiopia live in low-income families who
-            don’t have the means to provide them with computers and other
-            digital tools. Limited access to technology and technology education
-            is also witnessed in public schools which further impede the kids
-            from having sufficient digital skills by the time they graduate from
-            high school.
+          <p className="block mb-8 font-raleway text-base antialiased font-normal leading-relaxed text-gray-700">
+            iCog&apos;s Digital Literacy Initiative is an inclusive program
+            designed to provide a comprehensive understanding of digital
+            technologies, including computer skills, online communication, and
+            digital marketing, for individuals and institutions ranging from
+            students to business owners.
           </p>
-          <a
+          {/* <a
             href="https://icogacc.com/impact/public+workshops"
             className="inline-block"
           >
@@ -91,7 +87,7 @@ function Landing() {
                 ></path>
               </svg>
             </button>
-          </a>
+          </a> */}
         </div>
       </div>
 
@@ -107,10 +103,10 @@ function Landing() {
           <h4 className="block mb-2 font-sans text-3xl antialiased font-semibold leading-snug tracking-normal text-[#178c9f]">
             AYSRH
           </h4>
-          <p className="block mb-7 font-sans text-base antialiased font-normal leading-relaxed text-gray-700">
+          <p className="block mb-7 font-raileway text-base antialiased font-normal leading-relaxed text-gray-700">
             The younger generation looks for digital platforms for information
             about their bodies, health and relationships; yet often has a hard
-            time finding credible sources. This campaign is designed to
+            time finding credible sources. This campaign was designed to
             disseminate positive AYSRH information.
           </p>
           <a href="https://aysrh.icogacc.com/" className="inline-block">
@@ -148,9 +144,9 @@ function Landing() {
         </div>
         <div className="p-6">
           <h4 className="block mb-2 font-sans text-3xl antialiased font-semibold leading-snug tracking-normal text-[#178c9f]">
-            Solve It
+            Solve IT
           </h4>
-          <p className="block mb-12 font-sans text-base antialiased font-normal leading-relaxed text-gray-700">
+          <p className="block mb-12 font-raleway text-base antialiased font-normal leading-relaxed text-gray-700">
             Solve IT is a nationwide innovation competition that targets young
             talents between the age of 18-28 and it aims to decentralize
             technology by reaching and empowering the grassroots of our society.
