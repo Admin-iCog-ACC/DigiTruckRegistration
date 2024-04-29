@@ -156,20 +156,8 @@ function Nav() {
           >
             <span className="mr-1">Career</span>
           </a>
-          <button
-            type="button"
-            href="https://icogacc.com/register"
-            class="text-white bg-[#178c9f] hover:bg-[#198a9b] text-lg font-semibold rounded-lg  px-7 py-3 me-2 mb-2"
-          >
-            Register
-          </button>
-          <button
-            type="button"
-            href="https://donation.icogacc.com/"
-            class="text-white bg-[#178c9f] hover:bg-[#198a9b] text-lg font-semibold rounded-lg  px-7 py-3 me-2 mb-2"
-          >
-            Donate
-          </button>
+
+
         </div>
         <div
           className="lg:hidden text-4xl text-[#178c9f]"
