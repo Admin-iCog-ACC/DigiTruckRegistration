@@ -80,7 +80,7 @@ function Footer() {
                 isLarge ? ' ' : 'footer-bg-img '
               } text-gray-500 text-sm  w-full flex flex-col lg:items-start lg:space-y-1 items-center h-48 lg:h-full space-y-5"`}
             >
-              <p>Currently Remote, getting back to the office soon </p>
+              <p>Namibia St, Lingo Tower, 12th Floor</p>
               <div>
                 <span className="flex space-x-1">
                   <p className="font-medium">Phone: </p>

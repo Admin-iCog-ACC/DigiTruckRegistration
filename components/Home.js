@@ -11,15 +11,18 @@ function Landing() {
         </div>
         <div className="p-6">
           <h4 className="block mb-2 font-sans text-3xl antialiased font-semibold leading-snug tracking-normal text-[#178c9f]">
-            Girls Can Code
+            Social Impact
           </h4>
-          <p className="block pt-5  mb-14 font-sans text-base antialiased font-normal leading-relaxed text-gray-700">
-            Girls Can Code is an initiative by the U.S. Embassy that was
-            launched in. Before starting iCog Anyone Can Code; Betelhem was a
-            trainer at this project. The first Girls Can Code(GCC) reached out
-            to 40 girls from 10 public schools in Ethiopia.
+          <p className="block pt-5  mb-14 font-raleway text-base antialiased font-normal leading-relaxed text-gray-700">
+            The digital revolution is transforming the world, but the digital
+            divide leaves many young Ethiopians behind. Ethiopian public school
+            students, in particular, face challenges in STEM education due to a
+            lack of comprehensive curriculum and adequate infrastructure.
           </p>
-          <a href="https://icogacc.com/impact/girls+can+code" className="inline-block">
+          <a
+            href="https://impact.icogacc.com/"
+            className="inline-block"
+          >
             <button
               className="flex items-center gap-2 px-6 py-3 font-sans text-xs font-bold text-center text-gray-900 uppercase align-middle transition-all rounded-lg select-none disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none hover:bg-gray-900/10 active:bg-gray-900/20"
               type="button"
@@ -44,7 +47,7 @@ function Landing() {
         </div>
       </div>
 
-      <div className="relative flex bg-clip-border rounded-xl bg-white text-gray-700 shadow-md w-full max-w-[40rem] flex-row md:w-full md:max-w-none md:m-2">
+      <div className="relative flex bg-clip-border rounded-xl bg-white text-gray-500 shadow-md w-full max-w-[40rem] flex-row md:w-full md:max-w-none md:m-2">
         <div className="relative w-2/5 m-0 overflow-hidden text-gray-700 bg-white rounded-r-none bg-clip-border rounded-xl shrink-0">
           <img
             src="/2.jpg"
@@ -64,7 +67,10 @@ function Landing() {
             from having sufficient digital skills by the time they graduate from
             high school.
           </p>
-          <a href="https://icogacc.com/impact/public+workshops" className="inline-block">
+          <a
+            href="https://icogacc.com/impact/public+workshops"
+            className="inline-block"
+          >
             <button
               className="flex items-center gap-2 px-6 py-3 font-sans text-xs font-bold text-center text-gray-900 uppercase align-middle transition-all rounded-lg select-none disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none hover:bg-gray-900/10 active:bg-gray-900/20"
               type="button"
@@ -148,9 +154,11 @@ function Landing() {
             Solve IT is a nationwide innovation competition that targets young
             talents between the age of 18-28 and it aims to decentralize
             technology by reaching and empowering the grassroots of our society.
-         
           </p>
-          <a href="https://icogacc.com/impact/solve+it" className="inline-block">
+          <a
+            href="https://icogacc.com/impact/solve+it"
+            className="inline-block"
+          >
             <button
               className="flex items-center gap-2 px-6 py-3 font-sans text-xs font-bold text-center text-gray-900 uppercase align-middle transition-all rounded-lg select-none disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none hover:bg-gray-900/10 active:bg-gray-900/20"
               type="button"
@@ -174,8 +182,6 @@ function Landing() {
           </a>
         </div>
       </div>
-
-    
     </div>
   );
 }
