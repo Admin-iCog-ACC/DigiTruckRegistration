@@ -88,7 +88,7 @@ function Nav() {
           </a>
 
           <a
-            href="https://icogacc.com/blog"
+            href="https://icog.ghost.io/"
             className="text-black hover:text-[#178c9f] inline-flex items-center "
           >
             <span className="mr-1">Blog</span>
@@ -215,7 +215,7 @@ function Modal() {
           </a>
 
           <a
-            href="https://icogacc.com/blog"
+            href="https://icog.ghost.io/"
             className="text-black hover:text-[#178c9f] inline-flex items-center "
           >
             <span className="mr-1">Blog</span>
