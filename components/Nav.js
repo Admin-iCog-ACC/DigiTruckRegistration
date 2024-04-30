@@ -26,6 +26,8 @@ function Nav() {
       }
     >
       <div className="max-w-[1225px] font-raleway xl:mx-auto mx-5 flex justify-between items-center">
+        <a href="https://icogacc.com/">
+
         <div
           className={scrollState ? "h-28 w-28 relative" : "h-32 w-32 relative"}
         >
@@ -36,6 +38,7 @@ function Nav() {
             alt=""
           />
         </div>
+        </a>
         <div className="lg:flex text-[16px] font-normal hidden space-x-8 items-center">
           <a
             href="https://icogacc.com/"
