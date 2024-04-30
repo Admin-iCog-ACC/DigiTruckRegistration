@@ -90,7 +90,7 @@ function Nav() {
           </a>
 
           <a
-            href="https://icogacc.com/blog"
+            href="https://icog.ghost.io/"
             className="text-black hover:text-[#178c9f] inline-flex items-center "
           >
             <span className="mr-1">Blog</span>
@@ -103,7 +103,7 @@ function Nav() {
             <span className="mr-1">DigiTruck ET</span>
           </a>
           <a
-            href="https://icogacc.com/career"
+            href="https://career.icogacc.com/"
             className="text-black hover:text-[#178c9f] inline-flex items-center"
           >
             <span className="mr-1">Career</span>
