@@ -63,8 +63,8 @@ function Landing() {
             digital marketing, for individuals and institutions ranging from
             students to business owners.
           </p>
-          {/* <a
-            href="https://icogacc.com/impact/public+workshops"
+          <a
+            href="https://icogacc.com/impact/digital+literacy"
             className="inline-block"
           >
             <button
@@ -87,7 +87,7 @@ function Landing() {
                 ></path>
               </svg>
             </button>
-          </a> */}
+          </a>
         </div>
       </div>
 
