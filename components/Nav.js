@@ -26,16 +26,20 @@ function Nav() {
       }
     >
       <div className="max-w-[1225px] font-raleway xl:mx-auto mx-5 flex justify-between items-center">
-        <div
-          className={scrollState ? "h-28 w-28 relative" : "h-32 w-32 relative"}
-        >
-          <Image
-            src="/logo-web_sm.png"
-            layout="fill"
-            objectFit="contain"
-            alt=""
-          />
-        </div>
+        <a href="https://icogacc.com/">
+          <div
+            className={
+              scrollState ? "h-28 w-28 relative" : "h-32 w-32 relative"
+            }
+          >
+            <Image
+              src="/logo-web_sm.png"
+              layout="fill"
+              objectFit="contain"
+              alt=""
+            />
+          </div>
+        </a>
         <div className="lg:flex text-[16px] font-normal hidden space-x-8 items-center">
           <a
             href="https://icogacc.com/"
@@ -108,8 +112,6 @@ function Nav() {
           >
             <span className="mr-1">Career</span>
           </a>
-
-
         </div>
         <div
           className="lg:hidden text-4xl text-[#178c9f]"
