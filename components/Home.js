@@ -4,7 +4,7 @@ function Landing() {
       <div className="relative flex bg-clip-border rounded-xl bg-white text-gray-700 shadow-md w-full max-w-[40rem] flex-row md:w-full md:max-w-none md:m-2">
         <div className="relative w-2/5 m-0 overflow-hidden text-gray-700 bg-white rounded-r-none bg-clip-border rounded-xl shrink-0">
           <img
-            src="/1.jpg"
+            src="/11.jpg"
             alt="card-image"
             className="object-cover w-full h-full"
           />
