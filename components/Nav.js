@@ -79,12 +79,52 @@ function Nav() {
             </ul>
           </div>
 
-          <a
-            href="https://impacts.icogacc.com/"
-            className="text-black hover:text-[#178c9f] inline-flex items-center "
-          >
-            <span className="mr-1">Impact</span>
-          </a>
+          <div className="group inline-block relative">
+            <a className="text-black hover:text-[#178c9f] inline-flex items-center cursor-default">
+              <span className="mr-1">Impact</span>
+              <svg
+                className="fill-current h-4 w-4"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 20 20"
+              >
+                <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
+              </svg>
+            </a>
+            <ul className="absolute hidden text-gray-700 py-5 group-hover:block w-48 bg-white ">
+              <li className="">
+                <a
+                  className="rounded-t bg-white hover:text-[#178c9f] py-2 px-4 block whitespace-no-wrap"
+                  href="https://aysrh.icogacc.com/"
+                >
+                  AYSRH
+                </a>
+              </li>
+              <li className="">
+                <a
+                  className="bg-white hover:text-[#178c9f] py-2 px-4 block whitespace-no-wrap"
+                  href="https://impact.icogacc.com/"
+                >
+                  Social Impact
+                </a>
+              </li>
+              <li className="">
+                <a
+                  className="bg-white hover:text-[#178c9f] py-2 px-4 block whitespace-no-wrap"
+                  href="https://icogacc.com/impact/digital+literacy"
+                >
+                  Digital Literacy
+                </a>
+              </li>
+              <li className="">
+                <a
+                  className="bg-white hover:text-[#178c9f] py-2 px-4 block whitespace-no-wrap"
+                  href="https://icogacc.com/impact/solve+it"
+                >
+                  Solve IT
+                </a>
+              </li>
+            </ul>
+          </div>
 
           <a
             href="https://icogacc.com/partners"
