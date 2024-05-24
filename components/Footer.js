@@ -80,7 +80,7 @@ function Footer() {
                 isLarge ? ' ' : 'footer-bg-img '
               } text-gray-500 text-sm  w-full flex flex-col lg:items-start lg:space-y-1 items-center h-48 lg:h-full space-y-5"`}
             >
-              <p>Currently Remote, getting back to the office soon </p>
+              <p>Namibia St, Lingo Tower, 12th Floor</p>
               <div>
                 <span className="flex space-x-1">
                   <p className="font-medium">Phone: </p>
@@ -102,7 +102,7 @@ function Footer() {
       <div className="px-5 lg:px-none flex justify-center text-[#178c9f] text-sm py-8">
         <div className="space-y-2">
           <span>
-            © Copyright 2022
+            © Copyright 2024
             <strong className="font-bold">
               <span> iCog Anyone Can Code</span>
             </strong>
