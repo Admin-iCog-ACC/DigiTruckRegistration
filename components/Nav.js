@@ -152,6 +152,12 @@ function Nav() {
           >
             <span className="mr-1">Career</span>
           </a>
+          <a
+            href="https://register.icogacc.com/"
+            className="text-xl text-white px-5 py-3 rounded bg-[#178c9f]"
+          >
+            Register
+          </a>
         </div>
         <div
           className="lg:hidden text-4xl text-[#178c9f]"
@@ -314,6 +320,12 @@ function Modal() {
             className="text-black hover:text-[#178c9f] inline-flex items-center"
           >
             <span className="mr-1">Career</span>
+          </a>
+          <a
+            href="https://register.icogacc.com/"
+            className="text-xl text-white px-5 py-3 rounded bg-[#178c9f]"
+          >
+            Register
           </a>
         </div>
       </div>
