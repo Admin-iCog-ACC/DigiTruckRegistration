@@ -115,7 +115,7 @@ function Footer() {
           <span>
             © Copyright 2024
             <strong className="font-bold">
-              <span> iCog Anyone Can Code</span>
+              <span> iCog </span>
             </strong>
             . All Rights Reserved
           </span>
