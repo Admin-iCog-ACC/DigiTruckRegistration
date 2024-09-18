@@ -9,6 +9,7 @@ function register() {
     <div className="bg-[#f6f9ff] font-raleway banner-bg-img">
       <Head>
         <title>Registration - DigiTruck Ethiopia</title>
+        <link rel="icon" href="/3.png" />
       </Head>
       <RecoilRoot>
         <Nav />
