@@ -10,7 +10,7 @@ function Landing() {
           />
         </div>
         <div className="p-6">
-          <h4 className="block mb-2 font-sans text-3xl antialiased font-semibold leading-snug tracking-normal text-[#178c9f]">
+          <h4 className="block mb-2 font-sans text-3xl antialiased font-semibold leading-snug tracking-normal text-[#000]">
             Social Impact
           </h4>
           <p className="block pt-5  mb-14 font-raleway text-base antialiased font-normal leading-relaxed text-gray-700">
@@ -53,7 +53,7 @@ function Landing() {
           />
         </div>
         <div className="p-6">
-          <h4 className="block mb-2 font-sans text-3xl antialiased font-semibold leading-snug tracking-normal text-[#178c9f]">
+          <h4 className="block mb-2 font-sans text-3xl antialiased font-semibold leading-snug tracking-normal text-[#000]">
             Digital Literacy
           </h4>
           <p className="block mb-8 font-raleway text-base antialiased font-normal leading-relaxed text-gray-700">
@@ -100,7 +100,7 @@ function Landing() {
           />
         </div>
         <div className="p-6">
-          <h4 className="block mb-2 font-sans text-3xl antialiased font-semibold leading-snug tracking-normal text-[#178c9f]">
+          <h4 className="block mb-2 font-sans text-3xl antialiased font-semibold leading-snug tracking-normal text-[#000]">
             AYSRH
           </h4>
           <p className="block mb-7 font-raileway text-base antialiased font-normal leading-relaxed text-gray-700">
@@ -143,7 +143,7 @@ function Landing() {
           />
         </div>
         <div className="p-6">
-          <h4 className="block mb-2 font-sans text-3xl antialiased font-semibold leading-snug tracking-normal text-[#178c9f]">
+          <h4 className="block mb-2 font-sans text-3xl antialiased font-semibold leading-snug tracking-normal text-[#000]">
             Solve IT
           </h4>
           <p className="block mb-12 font-raleway text-base antialiased font-normal leading-relaxed text-gray-700">
