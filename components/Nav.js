@@ -30,7 +30,7 @@ function Nav() {
           <div
             className={
               scrollState
-                ? "h-28 w-28 relative"
+                ? "h-28 w-28 relative grid place-items-center"
                 : "h-32 w-32 relative grid place-items-center"
             }
           >
@@ -91,7 +91,7 @@ function Nav() {
               <li className="">
                 <a
                   className="bg-white hover:text-[#000000] hover:font-bold py-2 px-4 block whitespace-no-wrap"
-                  href="#"
+                  href="https://aysrh.icogacc.com/"
                 >
                   AYSRH
                 </a>
@@ -107,7 +107,7 @@ function Nav() {
               <li className="">
                 <a
                   className="bg-white hover:text-[#000000] hover:font-bold py-2 px-4 block whitespace-no-wrap"
-                  href="https://digitruckethiopia.icogacc.com/"
+                  href="#"
                 >
                   DigiTruck ET
                 </a>
@@ -252,7 +252,7 @@ function Modal() {
               <li className="">
                 <a
                   className="bg-white hover:text-[#000000] hover:font-bold py-2 px-4 block whitespace-no-wrap"
-                  href="#"
+                  href="https://aysrh.icogacc.com/"
                 >
                   AYSRH
                 </a>
@@ -268,7 +268,7 @@ function Modal() {
               <li className="">
                 <a
                   className="bg-white hover:text-[#000000] hover:font-bold py-2 px-4 block whitespace-no-wrap"
-                  href="https://digitruckethiopia.icogacc.com/"
+                  href="#"
                 >
                   DigiTruck ET
                 </a>
