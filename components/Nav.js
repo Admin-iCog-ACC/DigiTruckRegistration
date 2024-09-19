@@ -29,10 +29,12 @@ function Nav() {
         <a href="https://icogacc.com/">
           <div
             className={
-              scrollState ? "h-28 w-28 relative" : "h-32 w-32 relative"
+              scrollState
+                ? "h-28 w-28 relative"
+                : "h-32 w-32 relative grid place-items-center"
             }
           >
-            <Image src="/Logo.png" layout="fill" objectFit="contain" alt="" />
+            <img src="/Logo.png" alt="" className="object-contain" />
           </div>
         </a>
         <div className="lg:flex text-[16px] font-normal hidden space-x-8 items-center">

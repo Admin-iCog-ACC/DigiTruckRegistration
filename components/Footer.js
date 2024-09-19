@@ -34,7 +34,7 @@ function Footer() {
           <div className=" flex flex-wrap lg:gap-10 gap-5 ">
             <div className="text-sm w-full md:w-2/6 lg:py-10 py-5 mx-5 lg:mx-none">
               <div className="relative h-24 w-24">
-                <Image src={igg} layout="fill" objectFit="contain" alt="" />
+                <img src="/Logo.png" layout="fill" objectFit="contain" alt="" />
               </div>
 
               <div className="mb-4 text-md text-gray-500">
