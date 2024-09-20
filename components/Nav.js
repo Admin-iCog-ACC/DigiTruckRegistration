@@ -312,7 +312,7 @@ function Nav() {
           : "w-full sticky top-0 z-30 h-28 bg-transparent "
       }
     >
-      <div className="max-w-[1225px] font-raleway xl:mx-auto mx-5 flex justify-between items-center">
+      <div className="max-w-[1225px] font-helvetica xl:mx-auto mx-5 flex justify-between items-center">
         <a href="https://icogacc.com/">
           <div
             className={

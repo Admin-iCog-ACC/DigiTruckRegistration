@@ -13,7 +13,7 @@ function Landing() {
           <h4 className="block mb-2 font-sans text-3xl antialiased font-semibold leading-snug tracking-normal text-[#000]">
             Social Impact
           </h4>
-          <p className="block pt-5  mb-14 font-raleway text-base antialiased font-normal leading-relaxed text-gray-700">
+          <p className="block pt-5  mb-14 font-helvetica text-base antialiased font-normal leading-relaxed text-gray-700">
             The digital revolution is transforming the world, but the digital
             divide leaves many young Ethiopians behind. Ethiopian public school
             students, in particular, face challenges in STEM education due to a
@@ -56,7 +56,7 @@ function Landing() {
           <h4 className="block mb-2 font-sans text-3xl antialiased font-semibold leading-snug tracking-normal text-[#000]">
             Digital Literacy
           </h4>
-          <p className="block mb-8 font-raleway text-base antialiased font-normal leading-relaxed text-gray-700">
+          <p className="block mb-8 font-helvetica text-base antialiased font-normal leading-relaxed text-gray-700">
             iCog&apos;s Digital Literacy Initiative is an inclusive program
             designed to provide a comprehensive understanding of digital
             technologies, including computer skills, online communication, and
@@ -103,7 +103,7 @@ function Landing() {
           <h4 className="block mb-2 font-sans text-3xl antialiased font-semibold leading-snug tracking-normal text-[#000]">
             AYSRH
           </h4>
-          <p className="block mb-7 font-raileway text-base antialiased font-normal leading-relaxed text-gray-700">
+          <p className="block mb-7 font-helvetica text-base antialiased font-normal leading-relaxed text-gray-700">
             The younger generation looks for digital platforms for information
             about their bodies, health and relationships; yet often has a hard
             time finding credible sources. This campaign was designed to
@@ -146,7 +146,7 @@ function Landing() {
           <h4 className="block mb-2 font-sans text-3xl antialiased font-semibold leading-snug tracking-normal text-[#000]">
             Solve IT
           </h4>
-          <p className="block mb-12 font-raleway text-base antialiased font-normal leading-relaxed text-gray-700">
+          <p className="block mb-12 font-helvetica text-base antialiased font-normal leading-relaxed text-gray-700">
             Solve IT is a nationwide innovation competition that targets young
             talents between the age of 18-28 and it aims to decentralize
             technology by reaching and empowering the grassroots of our society.
