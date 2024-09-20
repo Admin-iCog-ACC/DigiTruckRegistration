@@ -71,7 +71,7 @@ function Application() {
   };
 
   return (
-    <div className="bg-[#f6f9ff] font-raleway banner-bg-img">
+    <div className="bg-[#f6f9ff] font-helvetica banner-bg-img">
       <Head>
         <title>Application - DigiTruck Ethiopia</title>
       </Head>
@@ -82,7 +82,7 @@ function Application() {
         <UseContextProvider>
           <div className="bg-[#f6f9ff] ">
             <div className="bg-[#f6f9ff]  flex items-center">
-              <div className="lg:w-4/5 mx-auto md:w-4/5 mt-10 w-[95vw] rounded-2xl bg-white pb-2 shadow-xl font-raleway">
+              <div className="lg:w-4/5 mx-auto md:w-4/5 mt-10 w-[95vw] rounded-2xl bg-white pb-2 shadow-xl font-helvetica">
                 <div className="horizontal container">
                   <div className="flex items-center justify-evenly my-5">
                     {locales.map((l, i) => {

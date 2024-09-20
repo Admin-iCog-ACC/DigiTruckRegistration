@@ -16,7 +16,7 @@ import Achievments from "../components/Achievments";
 
 function Home() {
   return (
-    <div className="bg-[#f6f9ff] min-w-full font-raleway banner-bg-img">
+    <div className="bg-[#f6f9ff] min-w-full font-helvetica banner-bg-img">
       <Head>
         <title>DigiTruck Ethiopia</title>
       </Head>

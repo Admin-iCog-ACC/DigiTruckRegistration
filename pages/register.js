@@ -6,7 +6,7 @@ import Head from "next/head";
 
 function register() {
   return (
-    <div className="bg-[#f6f9ff] font-raleway banner-bg-img">
+    <div className="bg-[#f6f9ff] font-helvetica banner-bg-img">
       <Head>
         <title>Registration - DigiTruck Ethiopia</title>
         <link rel="icon" href="/3.png" />

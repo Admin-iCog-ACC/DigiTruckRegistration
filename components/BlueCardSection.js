@@ -15,7 +15,7 @@ export default function CustomComponent() {
     <>
       <div className="relative  mb-5 max-w-[1000px] mx-auto p-6  rounded-lg">
         <div className="absolute inset-0 bg-[#487fbc] mx-6 md:mx-0 opacity-80 max-h-[65%] rounded-lg"></div>
-        <h1 className="text-5xl relative pt-4 font-raleway font-medium text-white md:text-left text-center">
+        <h1 className="text-5xl relative pt-4 font-helvetica font-medium text-white md:text-left text-center">
           Coding Club
         </h1>
         <p className="text-lg w-full px-4 md:px-0 pt-8 text-white font-medium relative">
