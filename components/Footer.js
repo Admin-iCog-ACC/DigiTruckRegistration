@@ -95,7 +95,7 @@ function Footer() {
                   </span>
                   <span className="flex space-x-1">
                     <p className="font-medium">Email: </p>
-                    <p>info@icogacc.com</p>
+                    <p>info@icog.et</p>
                   </span>
                 </div>
                 <div>
