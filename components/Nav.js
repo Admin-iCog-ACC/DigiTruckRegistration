@@ -88,14 +88,14 @@ function Nav() {
               </svg>
             </a>
             <ul className="absolute hidden text-gray-700 py-5 group-hover:block w-48 bg-white ">
-              <li className="">
+              {/* <li className="">
                 <a
                   className="bg-white hover:text-[#000000] hover:font-bold py-2 px-4 block whitespace-no-wrap"
                   href="https://aysrh.icogacc.com/"
                 >
                   AYSRH
                 </a>
-              </li>
+              </li> */}
               <li className="">
                 <a
                   className="bg-white hover:text-[#000000] hover:font-bold py-2 px-4 block whitespace-no-wrap"
@@ -249,14 +249,14 @@ function Modal() {
               </svg>
             </a>
             <ul className="absolute hidden text-gray-700 py-5 group-hover:block w-48 bg-white ">
-              <li className="">
+              {/* <li className="">
                 <a
                   className="bg-white hover:text-[#000000] hover:font-bold py-2 px-4 block whitespace-no-wrap"
                   href="https://aysrh.icogacc.com/"
                 >
                   AYSRH
                 </a>
-              </li>
+              </li> */}
               <li className="">
                 <a
                   className="bg-white hover:text-[#000000] hover:font-bold py-2 px-4 block whitespace-no-wrap"
