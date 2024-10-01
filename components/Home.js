@@ -4,7 +4,7 @@ function Landing() {
       <div className="relative flex bg-clip-border rounded-xl bg-white text-gray-700 shadow-md w-full max-w-[40rem] flex-row md:w-full md:max-w-none md:m-2">
         <div className="relative w-2/5 m-0 overflow-hidden text-gray-700 bg-white rounded-r-none bg-clip-border rounded-xl shrink-0">
           <img
-            src="/11.jpg"
+            src="/social2.jpg"
             alt="card-image"
             className="object-cover w-full h-full"
           />
@@ -90,7 +90,7 @@ function Landing() {
           </a>
         </div>
       </div>
-
+{/* 
       <div className="relative flex bg-clip-border rounded-xl bg-white text-gray-700 shadow-md w-full max-w-[40rem] flex-row md:w-full md:max-w-none md:m-2">
         <div className="relative w-2/5 m-0 overflow-hidden text-gray-700 bg-white rounded-r-none bg-clip-border rounded-xl shrink-0">
           <img
@@ -132,9 +132,9 @@ function Landing() {
             </button>
           </a>
         </div>
-      </div>
+      </div> */}
 
-      <div className="relative flex bg-clip-border rounded-xl bg-white text-gray-700 shadow-md w-full max-w-[40rem] flex-row md:w-full md:max-w-none md:m-2">
+      <div className="relative flex bg-clip-border rounded-xl bg-white text-gray-700 shadow-md w-full max-w-[40rem] flex-row  md:w-full md:max-w-none md:m-2">
         <div className="relative w-2/5 m-0 overflow-hidden text-gray-700 bg-white rounded-r-none bg-clip-border rounded-xl shrink-0">
           <img
             src="/5.jpg"

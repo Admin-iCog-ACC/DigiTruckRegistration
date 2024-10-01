@@ -379,12 +379,12 @@ function Nav() {
             </a>
             <ul className="absolute hidden text-gray-700 py-5 group-hover:block w-48 bg-white ">
               <li className="">
-                <a
+                {/* <a
                   className="bg-white hover:text-[#000000] hover:font-bold py-2 px-4 block whitespace-no-wrap"
                   href="#"
                 >
                   AYSRH
-                </a>
+                </a> */}
               </li>
               <li className="">
                 <a
@@ -540,12 +540,12 @@ function Modal() {
             </a>
             <ul className="absolute hidden text-gray-700 py-5 group-hover:block w-48 bg-white ">
               <li className="">
-                <a
+                {/* <a
                   className="bg-white hover:text-[#000000] hover:font-bold py-2 px-4 block whitespace-no-wrap"
                   href="#"
                 >
                   AYSRH
-                </a>
+                </a> */}
               </li>
               <li className="">
                 <a
