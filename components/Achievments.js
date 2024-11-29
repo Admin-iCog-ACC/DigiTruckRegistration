@@ -1,7 +1,7 @@
 export default function () {
   return (
     <div className="max-w-[1000px] mx-auto w-full flex-1 my-20 text-center">
-      <div className="grid grid-cols-2 md:grid-cols-4 gap-10 md:gap-0 lg:space-x-5">
+      <div className="grid grid-cols-2 md:grid-cols-4 gap-10 md:gap-0 lg:space-x-4">
         <div className="flex flex-col items-center">
           <div className="w-16 h-16 rounded-full bg-[#ef4b20] flex justify-center items-center">
             <img
