@@ -7,7 +7,7 @@ function BackgroundSection() {
         <div className="grid grid-cols-1 md:grid-cols-2 ">
           <div className="relative md:h-100 md:w-100 h-96 w-full md:mx-0 mx-4">
             <Image
-              src="/ethiopiabg.png"
+              src="/newMapNoBG.png"
               layout="fill"
               objectFit="contain"
               alt=""
