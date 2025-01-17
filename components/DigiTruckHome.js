@@ -34,13 +34,13 @@ function DigiTruckHome() {
               </div>
             </div>
             <div className="flex justify-center md:justify-start pb-10  mt-10">
-              <button
+              {/* <button
                 className="bg-[#EE4823] w-48 py-3.5 text-white rounded-[4px] shadom-md flex justify-center items-center space-x-2 group"
                 onClick={(e) => router.push("/application")}
               >
                 <p className="text-lg">Apply Here</p>
                 <BsArrowRight className="text-xl transition duration-200 ease-out group-hover:translate-x-1 " />
-              </button>
+              </button> */}
             </div>
           </div>
           <div className="relative md:mb-8 md:h-auto md:w-full h-60 w-full lg:block animate-move">

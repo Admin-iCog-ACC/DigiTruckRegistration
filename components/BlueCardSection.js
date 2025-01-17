@@ -30,14 +30,14 @@ export default function CustomComponent() {
           software that address community challenges.
         </p>
         <div className="grid pt-16 grid-cols-1 md:grid-cols-2 gap-4">
-          <div class="max-w-sm z-10 bg-white  mx-auto  rounded-lg ">
-            <div class="p-5">
+          <div className="max-w-sm z-10 bg-white  mx-auto  rounded-lg ">
+            <div className="p-5">
               <a href="#">
-                <h5 class="mb-2 text-xl font-fredoka tracking-tight text-[#175DAA]">
+                <h5 className="mb-2 text-xl font-fredoka tracking-tight text-[#175DAA]">
                   Resources
                 </h5>
               </a>
-              <p class="mb-3 text-sm font-light text-black" href="/">
+              <p className="mb-3 text-sm font-light text-black" href="/">
                 In here you can find everything you need to learn and improve
                 your coding skills.
               </p>
@@ -47,14 +47,14 @@ export default function CustomComponent() {
             </a>
           </div>
 
-          <div class="max-w-sm z-10 bg-white  mx-auto  rounded-lg ">
-            <div class="p-5">
+          <div className="max-w-sm z-10 bg-white  mx-auto  rounded-lg ">
+            <div className="p-5">
               <a href="#">
-                <h5 class="mb-2 text-xl font-fredoka tracking-tight text-[#175DAA]">
+                <h5 className="mb-2 text-xl font-fredoka tracking-tight text-[#175DAA]">
                   Coding Club
                 </h5>
               </a>
-              <p class="mb-3 text-sm font-light text-black">
+              <p className="mb-3 text-sm font-light text-black">
                 In here you can find the google form to register for our coding
                 club.
               </p>

@@ -1,6 +1,5 @@
 import Footer from "../components/Footer";
 import Nav from "../components/Nav";
-import Register from "../components/Register";
 import React, { useEffect, useState } from "react";
 import { RecoilRoot } from "recoil";
 import DigiTruckHome from "../components/DigiTruckHome";

@@ -109,7 +109,7 @@ function Footer() {
       <div className="px-5 lg:px-none flex justify-center text-[#000000] text-sm py-8">
         <div className="space-y-2">
           <span>
-            © Copyright 2024
+            © Copyright 2025
             <strong className="font-bold">
               <span> iCog</span>
             </strong>

@@ -29,9 +29,9 @@ function BackgroundSection() {
           </div>
         </div>
       </div>
-      <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mx-auto max-w-screen-lg p-4">
-        <div class="card bg-[#ef4b20] text-white rounded-xl shadow-lg p-4">
-          <h3 class="font-bold text-xl mb-2">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mx-auto max-w-screen-lg p-4">
+        <div className="card bg-[#ef4b20] text-white rounded-xl shadow-lg p-4">
+          <h3 className="font-bold text-xl mb-2">
             Train Students in Emerging Technologies
           </h3>
           <p>
@@ -40,15 +40,15 @@ function BackgroundSection() {
           </p>
         </div>
 
-        <div class="card bg-[#1a5fab] text-white  rounded-xl shadow-lg p-4">
-          <h3 class="font-bold text-xl mb-2">
+        <div className="card bg-[#1a5fab] text-white  rounded-xl shadow-lg p-4">
+          <h3 className="font-bold text-xl mb-2">
             Narrow the Gender Gap in Digital Skills
           </h3>
           <p>Empower women and girls to become leaders in the digital world.</p>
         </div>
 
-        <div class="card bg-[#ef4b20] text-white rounded-xl shadow-lg p-4">
-          <h3 class="font-bold text-xl mb-2">
+        <div className="card bg-[#ef4b20] text-white rounded-xl shadow-lg p-4">
+          <h3 className="font-bold text-xl mb-2">
             Build a Digital Community for Students
           </h3>
           <p>
