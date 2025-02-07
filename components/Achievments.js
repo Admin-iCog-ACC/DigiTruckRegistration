@@ -9,7 +9,7 @@ export default function () {
               src="location.png"
             />
           </div>
-          <span className="text-md font-bold">8 Cities</span>
+          <span className="text-md font-bold">9 Cities</span>
         </div>
         <div className="flex flex-col items-center">
           <div className="w-16 h-16 rounded-full bg-[#ef4b20] flex justify-center items-center">
@@ -27,7 +27,7 @@ export default function () {
               src="teachers.png"
             />
           </div>
-          <span className="text-md font-bold">45 Teachers</span>
+          <span className="text-md font-bold">72 Teachers</span>
         </div>
         <div className="flex flex-col items-center">
           <div className="w-16 h-16 rounded-full bg-[#ef4b20] flex justify-center items-center">
@@ -36,7 +36,7 @@ export default function () {
               src="people.png"
             />
           </div>
-          <span className="text-md font-bold">1689 Students</span>
+          <span className="text-md font-bold">2619 Trained</span>
         </div>
 
         <div className="flex flex-col items-center md:col-start-1 md:col-span-2">
@@ -46,7 +46,7 @@ export default function () {
               src="female.png"
             />
           </div>
-          <span className="text-md font-bold">701 Female</span>
+          <span className="text-md font-bold">1045 Female Trainees</span>
         </div>
 
         <div className="flex flex-col items-center md:col-start-3 md:col-span-2 ">
@@ -56,7 +56,7 @@ export default function () {
               src="time.png"
             />
           </div>
-          <span className="text-md font-bold">800 Hours</span>
+          <span className="text-md font-bold">3750 Registered</span>
         </div>
       </div>
     </div>
